@@ -6,43 +6,43 @@
            <tweenIn x="895" y="45" width="30" height="30" tint="0x20282e" alpha="0.5"/>
            <tweenOver alpha="1"/>
         </auto_play>
-		
+
     	<prev_button>
 			<defaults round_corners="5,5,5,5"/>
 			<tweenOver tint="0xFFFFFF" scaleX="1.1" scaleY="1.1"/>
 			<tweenOut tint="0x000000" />
 		</prev_button>
-		
+
     	<prev_symbol>
-			<tweenOver tint="0x000000" />			
+			<tweenOver tint="0x000000" />
 		</prev_symbol>
-		
+
 		<description>
          <defaults round_corners="10, 10, 10, 10" heading_text_size="22" heading_text_color="0xffffff" paragraph_text_size="35" paragraph_text_color="0xffffff"/>
          <tweenIn x="0" y="0" alpha="0.70"/>
          <tweenOver alpha="0.3"/>
         </description>
-		
+
     	<next_button>
-			<defaults round_corners="5,5,5,5"/>			
+			<defaults round_corners="5,5,5,5"/>
 			<tweenOver tint="0xFFFFFF"  scaleX="1.1" scaleY="1.1"/>
 			<tweenOut tint="0x000000" />
 		</next_button>
-		
+
     	<next_symbol>
 			<tweenOver tint="0x000000" />
-		</next_symbol>	
-			
-	</settings>    
+		</next_symbol>
+
+	</settings>
 
 	<slides>
-	
+
         <slide>
             <url>images/slide_1.jpg</url>
 			<description>
             <heading>Factory Direct Pricing</heading>
      <paragraph>
-From $345.00.00 + Free Shipping! 
+From $345.00 + Free Shipping!
  </paragraph>
    </description>
         </slide>
@@ -50,7 +50,7 @@ From $345.00.00 + Free Shipping!
         <transition num="3" slicing="vertical" direction="down"/>
        		    <slide>
        		<url>images/slide_2.jpg</url>
-			        </slide>		
+			        </slide>
 		<!-- changing transition between second & third slide -->
         <transition num="4" direction="right" shader="flat" />
 		<slide>
@@ -64,7 +64,7 @@ From $345.00.00 + Free Shipping!
         <slide>
        		<url>images/slide_5.jpg</url>
         </slide>
-				
+
 	</slides>
 </cu3er>
 
