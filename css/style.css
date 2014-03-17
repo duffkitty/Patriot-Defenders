@@ -1,7 +1,7 @@
 ﻿* {margin: auto;padding: 0;}
 
 body {background:#e1e1e1; font-family:arial; font-size:12px; color:#39454e;text-align:center;}
-  
+
 .thumbnail{
 position: relative;
 z-index: 0;
@@ -46,7 +46,7 @@ p {
 	padding-bottom:0px;
 	text-align: left;
 }
- 
+
 a img{
 	border: 0px;
 	text-align: center;
@@ -67,13 +67,14 @@ textarea:hover{width:350px;height:80px;border:1px solid #39454e;background:#ffff
 
 
 :focus{outline:none;}
- 
+
 a {text-decoration:none;cursor:pointer;}
- 
+
 #main_body {width:960px;margin-top:20px;text-align:left;padding-bottom:15px;}
- 
+
 
 #header{height:38px;background:#39454e url(../images/header-r-corner.gif) right no-repeat;}
+#promo{height:100px; margin-left:auto; margin-right:auto;}
 
 #logo{height:65px;float:left;margin-right:15px;}
 
@@ -100,7 +101,7 @@ li.menu_content_active{background:#757d83;margin-right:10px;float:left;color:#ff
 
 /* Content Body Starts Here */
 
-#content_body{clear:both;background:url(../images/content_bg.gif) top left repeat-x;margin-top:35px;text-align:left;padding:10px;font-size:12px;color:#5d6c77;}
+#content_body{clear:both;background:url(../images/content_bg.gif) top left repeat-x;margin-top:135px;text-align:left;padding:10px;font-size:12px;color:#5d6c77;}
 
 #top_content{clear:both;}
 
@@ -130,17 +131,17 @@ li.menu_content_active{background:#757d83;margin-right:10px;float:left;color:#ff
 
 .sub_headers{border-bottom:1px solid #7c8389;padding-bottom:5px;color:#39454e;font-size:18px;font-weight:bold;margin-bottom:12px;margin-top:3px;}
 
-img.floatRight { 
-    float: right; 
-    margin: 4px; 
+img.floatRight {
+    float: right;
+    margin: 4px;
 	background: #FFF;
 	border:1px solid #666;
 	padding:10px;
 }
-	
-img.floatLeft { 
-    float: left; 
-    margin: 4px; 
+
+img.floatLeft {
+    float: left;
+    margin: 4px;
 	background: #FFF;
 	border:1px solid #666;
 	padding:10px;
@@ -176,7 +177,7 @@ img.floatLeft {
 /* Contact Form */
 .contact input[type="text"]{width:300px;border:1px solid #39454e;background:#e1e1e1;margin-top:2px;padding:3px;}
 .contact input[type="text"]:hover{width:300px;border:1px solid #39454e;background:#ffffff;margin-top:2px;padding:3px;}
-label.error {color: red; padding-left: 20px; } 
+label.error {color: red; padding-left: 20px; }
 /* Contact From */
 
 /*Content Body Ends Here */
@@ -188,7 +189,7 @@ label.error {color: red; padding-left: 20px; }
 #footer a:hover{text-decoration:underline;color:#5d6c77;font-size:12px;}
 
 /* Footer Ends Here */
- 
+
  .headers1 {
 	color: #000;
 }
