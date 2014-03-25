@@ -2,6 +2,9 @@
     margin: auto;
     padding: 0;
 }
+h4 {
+    text-align: left;
+}
 
 body {
     background: #e1e1e1;
