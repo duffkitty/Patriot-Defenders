@@ -1,3 +1,114 @@
-body {
+/* Global */
 
+.price {
+    color: #FF0000;
+    text-align: left;
+}
+.price2 {
+    float: right;
+    font-weight: bold;
+}
+
+
+/* Cloud */
+
+hr.cloud {
+    border: 0;
+    height: 0; /* Firefox... */
+    box-shadow: 0 0 10px 1px black;
+    margin-bottom: 5px;
+}
+hr.cloud:after {/* Not really supposed to work, but does */
+    content: "\00a0"; /* Prevent margin collapse */
+}
+
+/* Header */
+.ptxbrand {
+    float: right;
+    color: #E1E1E1;
+}
+
+/* Main Body */
+
+#cart .product {
+    margin-bottom: 18px;
+}
+
+#cart .product p {
+    text-align: center;
+}
+
+/* Footer */
+
+/* Extras */
+.addtocart {
+    background-color: #FF6B00;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 6px;
+    color: #000;
+    font-family: 'Arial';
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    border: thin black solid;
+    padding: 0px 3px 0px 3px;
+}
+
+.addtocart:hover {
+    border: thin black solid;
+    background: #757d83;
+    color: #ffffff;
+    box-shadow: 0px 0px 3px #777;
+}
+
+.gradbtn {
+    /* Gradient */
+    background: #d5d5d5; /* Old browsers */
+    background: -moz-linear-gradient(top,  #d5d5d5 0%, #999da2 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d5d5d5), color-stop(100%,#999da2)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #d5d5d5 0%,#999da2 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #d5d5d5 0%,#999da2 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #d5d5d5 0%,#999da2 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #d5d5d5 0%,#999da2 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d5d5d5', endColorstr='#999da2',GradientType=0 ); /* IE6-9 */
+    -mox-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 6px;
+    color: #1A2833;
+    font-family: 'Arial';
+    font-size: 16px;
+    font-weight:700;
+    text-decoration: none;
+    cursor: pointer;
+    border: thin black solid;
+    padding: 1px 3px 1px 3px;
+}
+.gradbtn:hover {
+    border: thin black solid;
+    background: #ff6b00; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ff6b00 0%, #d5d5d5 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff6b00), color-stop(100%,#d5d5d5)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ff6b00 0%,#d5d5d5 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ff6b00 0%,#d5d5d5 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ff6b00 0%,#d5d5d5 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #ff6b00 0%,#d5d5d5 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6b00', endColorstr='#d5d5d5',GradientType=0 ); /* IE6-9 */
+    color: #1A2833;
+    box-shadow: 0px 0px 2px #777
+}
+
+#ptxlogo {
+    float: right;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 5px
+}
+img.productimage {
+    float: left;
+    margin: 5px;
+    background: #FFF;
+    border: 1px solid #666;
+    padding: 10px;
 }
