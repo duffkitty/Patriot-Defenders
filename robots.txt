@@ -3,4 +3,6 @@ User-agent: *
 Disallow:
 Disallow: /cgi-bin/
 Disallow: /XR1200.html
+Disallow: /prod/
+Disallow: /defenders.html
 Sitemap: http://www.patriotpipes.com/sitemap.xml
