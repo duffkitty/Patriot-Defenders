@@ -1,5 +1,48 @@
 /* Global */
+* {
+    margin: auto;
+    padding: 0;
+}
 
+body {
+    background: #E1E1E1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #39454E;
+}
+p {
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    text-align: left;
+}
+
+textarea {
+    width: 350px;
+    height: 80px;
+    border: 1px solid #39454E;
+    background: #E1E1E1;
+    margin-top: 2px;
+}
+textarea:hover {
+    width: 350px;
+    height: 80px;
+    border: 1px solid #39454E;
+    background: #FFFFFF;
+    margin-top: 2px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+#main_body {
+    width: 960px;
+    margin-top: 20px;
+    text-align: left;
+    padding-bottom: 15px;
+}
 .price {
     color: #FF0000;
     text-align: left;
@@ -7,15 +50,15 @@
 .price2 {
     float: right;
     font-weight: bold;
+    padding-right: 5px;
 }
-
 
 /* Cloud */
 
 hr.cloud {
     border: 0;
     height: 0; /* Firefox... */
-    box-shadow: 0 0 10px 1px black;
+    box-shadow: 0 0 10px 1px #000000;
     margin-bottom: 5px;
 }
 hr.cloud:after {/* Not really supposed to work, but does */
@@ -23,24 +66,125 @@ hr.cloud:after {/* Not really supposed to work, but does */
 }
 
 /* Header */
-.ptxbrand {
-    float: right;
-    color: #E1E1E1;
+
+#menu_body {
+    width: 800px;
+    text-align: left;
+    padding-top: 40px;
+    padding-left: 25px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.menu_content {
+    padding: 6px 5px 0px 5px;
+    font-weight: bold;
+}
+.menu_content ul {
+    list-style-type: none;
+}
+.menu_content li {
+    float: left;
+    margin-right: 10px;
+}
+.menu_content li:hover {
+    background: #757D83;
+    margin-right: 10px;
+    float: left;
+    color: #FFFFFF;
+    border-color: #000000;
+    border: 1px solid;
+    border-radius: 10px;
+}
+.menu_content a {
+    color: #D4D7DA;
+    padding: 5px 15px 5px 15px;
+    display: block;
+}
+.menu_content a:hover {
+    color: #FFFFFF;
+    padding: 5px 15px 5px 15px;
+}
+li.menu_content_active {
+    background: #757d83;
+    border-color: #000000;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-right: 10px;
+    float: left;
+    color: #FFFFFF;
+}
+.menu_content_active a {
+    color: #FFFFFF;
+    padding: 5px 15px 5px 15px;
+}
+
+#header {
+    height: 80px;
+    background: #39454E;
+    border-radius: 25px;
+}
+#promo {
+    padding-top: 40px;
+}
+#promo img {
+    width: 960px;
+    height: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#logo {
+    height: 40px;
+    float: left;
+    margin-right: 15px;
+}
+#logo img {
+    height: 35px;
+    width: 186px;
+    padding-top: 5px;
+    padding-left: 5px;
 }
 
 /* Main Body */
 
+#content_body {
+    clear: both;
+    background: url(../images/content_bg.gif) top left repeat-x;
+    margin-top: 105px;
+    padding: 10px;
+    font-size: 12px;
+    color: #5d6c77;
+}
 #cart .product {
     margin-bottom: 18px;
 }
-
-#cart .product p {
+div.product {
+    width: 940px;
+    height: 250px;
+}
+div.readmorebtn {
     text-align: center;
 }
 
 /* Footer */
 
 /* Extras */
+
+.left {
+    float: left;
+    text-align: left;
+}
+
+.clear {
+    clear: both;
+}
+
+.right {
+    float: right;
+}
+
+.center {
+    text-align: center;
+}
 .addtocart {
     background-color: #FF6B00;
     -moz-border-radius: 5px;
@@ -78,7 +222,7 @@ hr.cloud:after {/* Not really supposed to work, but does */
     color: #1A2833;
     font-family: 'Arial';
     font-size: 16px;
-    font-weight:700;
+    font-weight: 700;
     text-decoration: none;
     cursor: pointer;
     border: thin black solid;
@@ -111,4 +255,10 @@ img.productimage {
     background: #FFF;
     border: 1px solid #666;
     padding: 10px;
+    cursor: pointer;
+}
+
+.moreviews {
+    text-align: left;
+    padding-top: 25px;
 }
