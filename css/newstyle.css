@@ -1,4 +1,5 @@
 /* Global */
+
 * {
     margin: auto;
     padding: 0;
@@ -17,7 +18,10 @@ p {
     padding-bottom: 0px;
     text-align: left;
 }
-
+th {
+    text-align: left;
+    font-weight: normal;
+}
 textarea {
     width: 350px;
     height: 80px;
@@ -63,6 +67,18 @@ hr.cloud {
 }
 hr.cloud:after {/* Not really supposed to work, but does */
     content: "\00a0"; /* Prevent margin collapse */
+}
+
+/* Gradient HR */
+
+hr.hrgrad {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+    background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
+    background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
+    background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
 }
 
 /* Header */
@@ -152,20 +168,39 @@ li.menu_content_active {
     margin-top: 105px;
     padding: 10px;
     font-size: 12px;
-    color: #5d6c77;
+    color: #000000;
 }
 #cart .product {
     margin-bottom: 18px;
 }
 div.product {
     width: 940px;
-    height: 250px;
+    padding: 5px 0 5px 0;
 }
 div.readmorebtn {
     text-align: center;
 }
 
 /* Footer */
+
+#footer {
+    clear: both;
+    color: #5d6c77;
+    padding-top: 5px;
+}
+#footer a {
+    text-decoration: none;
+    color: #5d6c77;
+    font-size: 12px;
+}
+#footer span {
+    padding: 0px 5px 0px 5px;
+}
+#footer a:hover {
+    text-decoration: underline;
+    color: #5d6c77;
+    font-size: 12px;
+}
 
 /* Extras */
 
@@ -249,16 +284,34 @@ div.readmorebtn {
     padding-bottom: 10px;
     padding-right: 5px
 }
-img.productimage {
+
+div.productimage {
     float: left;
-    margin: 5px;
-    background: #FFF;
-    border: 1px solid #666;
-    padding: 10px;
+    margin: 0 2px;
+}
+div.productimage img {
+    width: 300px;
     cursor: pointer;
+    border: 1px solid #39454E;
 }
 
 .moreviews {
+    float: left;
     text-align: left;
-    padding-top: 25px;
+    padding-top: 20px;
+}
+
+/* Index Specific */
+#defenders_info {
+    width: 330px;
+    float: left;
+    color: #39454e;
+    text-align: left;
+}
+#defenders_info p {
+    padding-top: 10px;
+    text-align: left;
+}
+#defenders_info form {
+    display: inline;
 }
