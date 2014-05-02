@@ -7,8 +7,9 @@
 
 body {
     background: #E1E1E1;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
+    font-family: 'Cabin', sans-serif;
+    font-size: 90%;
+    font-weight: 500;
     color: #39454E;
 }
 p {
@@ -17,6 +18,8 @@ p {
     margin-bottom: 0px;
     padding-bottom: 0px;
     text-align: left;
+    color: #39454E;
+    line-height: 125%;
 }
 th {
     text-align: left;
@@ -167,7 +170,7 @@ li.menu_content_active {
     background: url(../images/content_bg.gif) top left repeat-x;
     margin-top: 105px;
     padding: 10px;
-    font-size: 12px;
+    font-size: 90%;
     color: #000000;
 }
 #cart .product {
@@ -180,18 +183,52 @@ div.product {
 div.readmorebtn {
     text-align: center;
 }
+#left_content {
+    padding-bottom: 30px;
+    width: 350px;
+    float: left;
+    font-size: 90%;
+}
+#right_content {
+    clear: right;
+    width: 550px;
+    float: right;
+    font-size: 90%;
+}
+/* Slider Stuff */
 
+#slider_shadow {
+    background: url(../images/content_slider_shadow.gif) right bottom no-repeat;
+    height: 345px;
+}
+#content_slider {
+    float: right;
+    outline: 0;
+    width: 600px;
+}
+#content_slider a:link {
+    text-decoration: none;
+    color: #E6E6E6;
+}
+#content_slider a:visited {
+    text-decoration: none;
+    color: #CCCCCC;
+}
+#content_slider a:hover {
+    text-decoration: underline;
+    color: #FF6B00;
+}
 /* Footer */
 
 #footer {
     clear: both;
     color: #5d6c77;
     padding-top: 5px;
+    font-size: 75%;
 }
 #footer a {
     text-decoration: none;
     color: #5d6c77;
-    font-size: 12px;
 }
 #footer span {
     padding: 0px 5px 0px 5px;
@@ -199,7 +236,6 @@ div.readmorebtn {
 #footer a:hover {
     text-decoration: underline;
     color: #5d6c77;
-    font-size: 12px;
 }
 
 /* Extras */
@@ -220,27 +256,11 @@ div.readmorebtn {
 .center {
     text-align: center;
 }
-.addtocart {
-    background-color: #FF6B00;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 6px;
-    color: #000;
-    font-family: 'Arial';
-    font-size: 20px;
-    text-decoration: none;
-    cursor: pointer;
-    border: thin black solid;
-    padding: 0px 3px 0px 3px;
+.one-edge-shadow {
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
 }
-
-.addtocart:hover {
-    border: thin black solid;
-    background: #757d83;
-    color: #ffffff;
-    box-shadow: 0px 0px 3px #777;
-}
-
 .gradbtn {
     /* Gradient */
     background: #d5d5d5; /* Old browsers */
@@ -255,8 +275,8 @@ div.readmorebtn {
     -webkit-border-radius: 5px;
     border-radius: 6px;
     color: #1A2833;
-    font-family: 'Arial';
-    font-size: 16px;
+    font-family: 'Cabin', sans-serif;
+    font-size: 14px;
     font-weight: 700;
     text-decoration: none;
     cursor: pointer;

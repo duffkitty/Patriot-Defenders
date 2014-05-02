@@ -247,6 +247,18 @@ li.menu_content_active {
     outline: 0;
     width: 600px;
 }
+#content_slider a:link {
+    text-decoration: none;
+    color: #E6E6E6;
+}
+#content_slider a:visited {
+    text-decoration: none;
+    color:#CCCCCC;
+}
+#content_slider a:hover{
+    text-decoration:underline;
+    color:#FF6B00;
+}
 /* Content Slider */
 
 .headers {
