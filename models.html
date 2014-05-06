@@ -1,43 +1,74 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-US">
+<!DOCTYPE html>
+<html>
     <head>
-        <link rel="apple-touch-icon" size="57x57" href="/apple-touch-icon-57x57.png" />
-        <link rel="apple-touch-icon" size="114x114" href="/apple-touch-icon-114x114.png" />
-        <link rel="apple-touch-icon" size="72x72" href="/apple-touch-icon-72x72.png" />
-        <link rel="apple-touch-icon" size="144x144" href="/apple-touch-icon-144x144.png" />
-        <link rel="apple-touch-icon" size="60x60" href="/apple-touch-icon-60x60.png" />
-        <link rel="apple-touch-icon" size="120x120" href="/apple-touch-icon-120x120.png" />
-        <link rel="apple-touch-icon" size="76x76" href="/apple-touch-icon-76x76.png" />
-        <link rel="apple-touch-icon" size="152x152" href="/apple-touch-icon-152x152.png" />
-        <link rel="icon" type="image/png" href="/favicon-196x196.png" size="196x196" />
-        <link rel="icon" type="image/png" href="/favicon-160x160.png" size="160x160" />
-        <link rel="icon" type="image/png" href="/favicon-96x96.png" size="96x96" />
-        <link rel="icon" type="image/png" href="/favicon-16x16.png" size="16x16" />
-        <link rel="icon" type="image/png" href="/favicon-32x32.png" size="32x32" />
+        <!-- Meta Tags -->
+        <meta charset="utf-8">
+        <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+        Remove this if you use the .htaccess -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="description" content="">
+        <meta name="author" content="Anthony Sinatra">
+        <meta name="viewport" content="width=device-width; initial-scale=1.0">
+        <!-- Favicon Stuff -->
+        <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png" />
+        <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png" />
+        <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png" />
+        <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png" />
+        <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png" />
+        <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png" />
+        <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png" />
+        <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png" />
+        <link rel="icon" type="image/png" href="/favicon-196x196.png" sizes="196x196" />
+        <link rel="icon" type="image/png" href="/favicon-160x160.png" sizes="160x160" />
+        <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+        <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
+        <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="msapplication-TileImage" content="/mstile-144x144.png">
-        <!--#include virtual="/css/hdcnt.inc" --><title>Patriot Defender Pipes for Harley Davidson Motorcycles </title>
-        <meta http-equiv="content-type" content="application/xhtml; charset=UTF-8" />
+        <!-- End Favicon -->
+        <!-- FONTS -->
+        <link href='http://fonts.googleapis.com/css?family=Cabin:400,500,600,700,400italic,500italic,600italic,700italic' rel='stylesheet' type='text/css'>
+        <!-- CSS -->
         <link rel="stylesheet" type="text/css" href="css/style.css" />
-
         <!--[if lt IE 8.]>
         <link rel="stylesheet" type="text/css" href="css/style-ie.css" />
         <![endif]-->
         <!--[if lt IE 7.]>
         <link rel="stylesheet" type="text/css" href="css/style-ie6.css" />
         <![endif]-->
+        <!-- End CSS -->
+        <!-- JavaScript -->
+        <!-- jQuery -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <!-- jQuery-UI -->
+        <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
+        <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+        <!-- Slimbox -->
+        <link rel="stylesheet" type="text/css" href="css/slimbox2.css" />
+        <script type="text/javascript" src="/js/slimbox2.js"></script>
+        <!-- AddThis Smart Layers BEGIN -->
+        <!-- Go to http://www.addthis.com/get/smart-layers to customize -->
 
-        <style type="text/css">
-            <!--
-            #header {
-            font-size: 14px;
-            }
-            #Notice {
-            color: #FFF;
-            }
-            -->
-        </style>
+        <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53274b9a30d06a9b"></script>
+        <script type="text/javascript">
+            addthis.layers({
+                'theme' : 'transparent',
+                'share' : {
+                    'position' : 'left',
+                    'numPreferredServices' : 5
+                }
+            });
+        </script>
+        <!-- AddThis Smart Layers END -->
+        <!-- Pulsate New -->
+        <script type="text/javascript">
+            $(document).ready(function() {
+
+                $(".pulsate").effect("pulsate", {
+                    times : 5
+                }, 5000);
+            });
+        </script>
         <!-- Google Universal Analytics -->
         <script>
             (function(i, s, o, g, r, a, m) {
@@ -51,72 +82,31 @@
                 a.src = g;
                 m.parentNode.insertBefore(a, m)
             })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
             ga('create', 'UA-1317507-5', 'patriotpipes.com');
             // Replace with your property ID.
             ga('require', 'linkid', 'linkid.js');
             ga('send', 'pageview');
-
         </script>
         <!-- End Google Universal Analytics -->
-        <!-- BEGIN GOOGLE CLASSIC ANALYTICS CODE -->
-        <script type="text/javascript">
-            //<![CDATA[
-            (function() {
-                var ga = document.createElement('script');
-                ga.type = 'text/javascript';
-                ga.async = true;
-                ga.src = 'https://stats.g.doubleclick.net/dc.js';
-                var s = document.getElementsByTagName('script')[0];
-                s.parentNode.insertBefore(ga, s);
-            })();
-            var _gaq = _gaq || [];
-
-            _gaq.push(["_setAccount", "UA-1317507-5"]);
-            asyncDistilledFirstTouch(_gaq);
-            _gaq.push(["_trackPageLoadTime"]);
-            //]]>
-        </script>
-        <!-- AddThis Smart Layers BEGIN -->
-        <!-- Go to http://www.addthis.com/get/smart-layers to customize -->
-        <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53274b9a30d06a9b"></script>
-        <script type="text/javascript">
-            addthis.layers({
-                'theme' : 'transparent',
-                'share' : {
-                    'position' : 'left',
-                    'numPreferredServices' : 5
-                }
-            });
-        </script>
-        <!-- AddThis Smart Layers END -->
-
+        <!-- End JavaScript -->
+        <title>Patriot&reg; Defender Pipes for Harley-Davidson&reg; Motorcycles</title>
     </head>
-
     <body>
-
-        <!-- Main Body Starts Here -->
         <div id="main_body">
-
-            <!-- Header Starts Here -->
             <div id="header">
-
-                <!-- Logo Starts Here -->
                 <div id="logo">
-                    <a href="index.html"><img src="images/logo.jpg" alt="Design3edge" /></a>
+                    <a href="index.html"><img src="images/logo.png" alt="Patriot&reg; Defenders" /></a>
                 </div>
-                <!-- Logo Ends Here -->
-
-                <!-- Menu Body Starts Here -->
+                <div id="ptxlogo">
+                    <a href="http://www.pertronix.com/"><img src="images/tr_elipse_mobile.png" alt="A PerTronix Performance Brand"></a>
+                </div>
+                <!-- Navigation Menu -->
                 <div id="menu_body">
-
-                    <!-- Menu Content Starts Here -->
                     <div class="menu_content">
                         <ul>
                             <li>
                                 <a href="index.html">HOME</a>
                             </li>
-
                             <li class="menu_content_active">
                                 <a href="pipes.html">PIPES</a>
                             </li>
@@ -127,546 +117,534 @@
                                 <a href="contact_us.html">CONTACT US</a>
                             </li>
                             <li>
-                                <a href="http://shop.pertronix.com/patriot-defender.html">SHOP NOW!</a>
+                                <a href="http://shop.patriotpipes.com">SHOP NOW!</a>
                             </li>
                         </ul>
-
-                        <!-- Search Part Starts Here -->
-
-                        <!-- Search Part Ends Here -->
-
                     </div>
-                    <!-- Menu Content Ends here -->
-
                 </div>
-                <!-- Menu Body Ends Here -->
+                <!-- End Navigation Menu -->
+                <!-- Promo Banner -->
                 <div id="promo">
-                    <!-- Promo Banner -->
-                    <a href="http://shop.pertronix.com/patriot-defender/defenders-bundles/defenders-pipe-and-top-fueler-efi-controller-bundle.html/"><img src="images/banner_defender-bundle.png" alt="Defender's Bundle Banner"></a>
-
+                    <a href="http://shop.pertronix.com/patriot-defender/defenders-bundles/defenders-pipe-and-top-fueler-efi-controller-bundle.html/" target="_blank"><img src="images/banner_defender-bundle.png" alt="Defender's Bundle Banner"></a>
                 </div>
+                <!-- End Banner -->
             </div>
-
-            <!-- Header Ends Here -->
-
-            <!-- Main Content Starts Here -->
             <div id="content_body">
                 <div id="cart">
-                    <!--Defender Bundle-->
-                    <div>
-                        <div class="product">
-                            <h2>&nbsp;</h2>
-                            <p>
-                                &nbsp;
-                            </p>
-                            <img src="images/lodef_defenders-bundle.jpg" alt="Bundle and Save!" width="250" height="153" hspace="15" vspace="15" border="15" class="floatLeft" />
-
-                            <p>
-                                <h2><font color="red">&lowast;NEW&lowast;</font> Defender Pipe and Top Fueler EFI Controller Bundle</h2>
-                                <p>
-                                    Customize your bundle. Select one of our Defender Pipes and one of our Top Fueler EFI Controllers and receive a <strong>$50 discount off the set and FREE SHIPPING!*</strong>
-                                </p>
-                                <p style="color:red;">
-                                    <strong>Discount applied at Checkout.</strong>
-                                </p>
-                                <p></p>
-                                <a href="http://shop.pertronix.com/patriot-defender/defenders-bundles/defenders-pipe-and-top-fueler-efi-controller-bundle.html"><img src="images/read_more_btn.png" alt="Read More" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <!--<a href="Patriot Defenders Instuction Sheet M141510S.pdf"><img src="images/icon.pdf.gif" alt="" width="38" height="36" />&nbsp;Instructions-->
-                            </p></p>
-                            &nbsp;</a>
-                            <p>
-                                <table border="0" align="center" cellpadding="10" cellspacing="0" class="tableregularborder" summary="Product table">
-                                    <tr>
-                                        <th width="300">Description</th>
-                                        <th width="100">Part
-                                        <br />
-                                        Number</th>
-                                        <th width="150">Starting From</th>
-                                        <th width="175">&nbsp;</th>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>Pipe &amp; Controller Bundle</strong></td>
-                                        <td><h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="images/defenders-bundle.png" target="_blank">Bundle</a></h3></td>
-                                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="price2" style="color:red;"><strong>$574.95</strong></span></td>
-                                        <td width="100">
-                                        <form action="http://shop.pertronix.com/patriot-defender/defenders-bundles/defenders-pipe-and-top-fueler-efi-controller-bundle.html">
-                                            <input type="submit" class="submitBtn" value="Customize Now!">
-                                        </form></td>
-                                    </tr>
-                                </table>
+                    <div class="product">
+                        <!-- Bundle -->
+                        <div class="productimage">
+                            <a href="/images/defenders-bundle.png" rel="lightbox"><img src="/images/lodef_defenders-bundle.jpg" alt="Bundle and Save!" /></a>
                         </div>
-                        <!-- Defender Bundle End -->
+                        <br />
+                        <h2 class="center"><span class="pulsate" style="color:#FF0000;">&lowast;NEW&lowast;</span> Defender Pipe and Top Fueler EFI Controller Bundle</h2>
+                        <p class="center">
+                            Customize your bundle. Select one of our Defender Pipes and one of our Top Fueler EFI Controllers and receive a <strong>$50 discount off the set and FREE SHIPPING!*</strong>
+                        </p>
+                        <p  class="center" style="color:#FF0000;">
+                            <strong>Discount applied at Checkout.</strong>
+                        </p>
+                        <div class="readmorebtn">
+                            <form action="http://shop.patriotpipes.com/defenders-pipe-and-top-fueler-efi-controller-bundle.html" target="_blank">
+                                <input type="submit" class="gradbtn" value="Read More!" />
+                            </form>
+                        </div>
+                        <table class="producttable">
+                            <tr>
+                                <th class="tabledescd">Description:</th>
+                                <th class="tablepart">Part Number:</th>
+                                <th class="tablepriced">Factory Direct Pricing:</th>
+                                <th class="tableblankd">&nbsp;</th>
+                            </tr>
+                            <tr>
+                                <td><strong>Pipe &amp; Controller Bundle</strong></td>
+                                <td><h3><a href="http://shop.patriotpipes.com/defenders-pipe-and-top-fueler-efi-controller-bundle.html" target="_blank">BUNDLE</a></h3></td>
+                                <td><span style="font-weight:bold;">Starts at $574.95</span></td>
+                                <td>
+                                <form action="http://shop.patriotpipes.com/defenders-pipe-and-top-fueler-efi-controller-bundle.html" method="post" target="_blank">
+                                    <input type="submit" class="gradbtn" value="Customize Now!" />
+                                </form></td>
+                            </tr>
+                        </table>
+                        <br />
+                    </div>
+                    <!-- Bundle End -->
+                    <hr class="cloud" />
+                    <!-- Product -->
+                    <div class="product">
+                        <script type="text/javascript">
+                            $(document).ready(function() {
+                                $("#image-1").click(function() {
+                                    $.slimbox([["images/M141510S_LG.jpg", "M141510S Stainless with Chrome Heat Shields"], ["images/M141510X_LG.jpg", "M141510X Black Ceramic with Chrome Heat Shields"], ["images/M141510B_LG.jpg", "M141510B Black Ceramic with Black Heat Shields"]], 0, {
+                                        loop : true
+                                    });
+                                });
+                            });
+                        </script>
+                        <div class="productimage">
+                            <em style="padding: 0px 0px 0px 10px;">M141510S Shown. Click Image for other variants.</em>
+                            <br />
+                            <img src="images/M141510S_LG.jpg" alt="2004-2014 Sportster" id="image-1" />
+                        </div>
+                        <br />
+                        <h2 class="center">2004 &#8211; 2014 Sportster&reg; XL Models</h2>
+                        <p class="center">
+                            Fits 883 and 1200 models with Standard or Factory Forward Controls (will not fit XR1200)
+                        </p>
+                        <form action="/pipes.html" class="center" target="_blank">
+                            <input type="submit" class="gradbtn" value="Read More!" />
+                            <a href="Patriot Defenders Instuction Sheet M141510S.pdf" target="_blank"><img src="images/icon.pdf.gif" alt="Instruction Sheet PDF" width="38" height="36" />&nbsp;Instructions</a>
+                        </form>
 
-                        <div>
-                            <div class="product">
-                                <h2>&nbsp;</h2>
-                                <p>
-                                    &nbsp;
-                                </p>
-                                <img src="images/M141510S.jpg" alt="2004-2012 Sportster" width="250" height="153" hspace="15" vspace="15" border="15" class="floatLeft" />
-
-                                <p>
-                                    <h2>2004 - 2014 Sportster&reg; XL Models</h2>
-                                    <p>
-                                        Fits 883 and 1200 models with Standard or Factory Forward Controls (will not fit XR1200)
-                                        </a>
-                                    </p>
-                                    <p style="text-align:center;">
-                                        <strong>Click on part number for larger view.</strong>
-                                    </p>
-                                    <p></p>
-                                    <a href="pipes.html"><img src="images/read_more_btn.png" alt="Read More" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="Patriot Defenders Instuction Sheet M141510S.pdf"><img src="images/icon.pdf.gif" alt="" width="38" height="36" />&nbsp;Instructions
-                                </p></p>
-                                &nbsp;</a>
-                                <p>
-                                    <table border="0" align="center" cellpadding="10" cellspacing="0" class="tableregularborder" summary="Product table">
-                                        <tr>
-                                            <th width="300">Description</th>
-                                            <th width="100">Part
-                                            <br />
-                                            Number</th>
-                                            <th width="150"> Factory Direct
-                                            <br />
-                                            Pricing</th>
-                                            <th width="175">&nbsp; </th>
-                                        </tr>
-                                        <tr>
-                                            <td><strong>Stainless / Chrome Heat Shields</strong></td>
-                                            <td><h3><a href="images/M141510S_LG.jpg" target="_blank">M141510S</a></h3></td>
-                                            <td><del>$749.99</del>&nbsp; <span id="price2">$345.00</span></td>
-                                            <td width="101">
-                                            <form action="http://shop.pertronix.com/urlcheckout/add?product=809" method="post">
-                                                <input type="image" src="images/add_cart_btn.png"  class="submitBtn" alt="Add to Cart" />
-                                            </form></td>
-                                        </tr>
-                                        <tr>
-                                            <td><strong>Black Ceramic / Black Heat Shields</strong></td>
-                                            <td><h3><a href="images/M141510B_LG.jpg" target="_blank">M141510B</a></h3></td>
-                                            <td><del>$849.99</del>&nbsp; <span id="price2">$445.00</span></td>
-                                            <td>
-                                            <form action="http://shop.pertronix.com/urlcheckout/add?product=808" method="post">
-                                                <input type="image" src="images/add_cart_btn.png"  class="submitBtn" alt="Add to Cart" />
-                                            </form></td>
-                                        </tr>
-                                        <tr>
-                                            <td><strong>Black Ceramic / Chrome Heat Shields</strong></td>
-                                            <td><h3><a href="images/M141510X_LG.jpg" target="_blank">M141510X</a></h3></td>
-                                            <td><del>$849.99</del>&nbsp;$445.00</td>
-                                            <td>
-                                            <form action="http://shop.pertronix.com/urlcheckout/add?product=810" method="post">
-                                                <input type="image" src="images/add_cart_btn.png"  class="submitBtn" alt="Add to Cart" />
-                                            </form></td>
-                                        </tr>
-                                    </table>
-                            </div>
-                            <div class="clear"></div>
-                            <div>
-                                <div class="product">
-                                    <h2>&nbsp;</h2>
-                                    <p>
-                                        &nbsp;
-                                    </p>
-                                    <p><img src="images/M101110S.jpg" alt="1986-2012 Softtail motorcycle short style" width="250" height="186" hspace="15" vspace="15" border="15" class="floatLeft">
-                                        <h2>1984 &#8211; 2014 Softail&reg; Models, Short Style</h2>
-                                        <p>
-                                            Fits with Floorboards or Forward Controls, Cross Bones$trade;, Night Train&reg;, Nostalgia, Heritage, Bad Boy&reg;, Springer, Fat Boy&reg;, Deluxe. <strong>NOTE:</strong> 2012-14 models require an O2 Sensor Adaptor kit to fit. Available from <a href="http://www.namzcustomcycleproducts.com/products/O2_sensor_extension_kits.html">NAMZcustomcycleproducts.com</a>
-                                        </p>
-                                        <p>
-                                            <strong>Click on part number for larger view.</strong>
-                                        </p>
-                                        <p></p>
-                                        <a href="pipes.html"><img src="images/read_more_btn.png" alt="Read More" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="Patriot Defenders Instuction Sheet M101110S, M101112S.pdf"><img src="images/icon.pdf.gif" alt="" width="38" height="36" />&nbsp;Instructions</a>
-                                    </p></p>
-                                    &nbsp;
-                                    <p>
-                                        <table border="0" align="center" cellpadding="10" cellspacing="0" class="tableregularborder" summary="Product table">
-                                            <tr>
-                                                <th width="300">Description</th>
-                                                <th width="100">Part
-                                                <br />
-                                                Number</th>
-                                                <th width="150"> Factory Direct
-                                                <br />
-                                                Pricing</th>
-                                                <th width="175">&nbsp; </th>
-                                            </tr>
-                                            <tr>
-                                                <td><strong>Stainless / Chrome Heat Shields</strong></td>
-                                                <td><h3><a href="images/M101110S_LG.jpg" target="_blank">M101110S</a></h3></td>
-                                                <td><del>$749.99</del>&nbsp; <span id="price2">$345.00</span></td>
-                                                <td width="101">
-                                                <form action="http://shop.pertronix.com/urlcheckout/add?product=785" method="post">
-                                                    <input type="image" src="images/add_cart_btn.png"  class="submitBtn" alt="Add to Cart" />
-                                                </form></td>
-                                            </tr>
-                                            <tr>
-                                                <td><strong>Black Ceramic / Black Heat Shields</strong></td>
-                                                <td><h3><a href="images/M101110B_LG.jpg" target="_blank">M101110B</a></h3></td>
-                                                <td><del>$849.99</del>&nbsp; <span id="price2">$445.00</span></td>
-                                                <td>
-                                                <form action="http://shop.pertronix.com/urlcheckout/add?product=784" method="post">
-                                                    <input type="image" src="images/add_cart_btn.png"  class="submitBtn" alt="Add to Cart" />
-                                                </form></td>
-                                            </tr>
-                                            <tr>
-                                                <td><strong>Black Ceramic / Chrome Heat Shields</strong></td>
-                                                <td><h3><a href="images/M101110X_LG.jpg" target="_blank">M101110X</a></h3></td>
-                                                <td><del>$849.99</del>&nbsp;$445.00</td>
-                                                <td>
-                                                <form action="http://shop.pertronix.com/urlcheckout/add?product=786" method="post">
-                                                    <input type="image" src="images/add_cart_btn.png"  class="submitBtn" alt="Add to Cart" />
-                                                </form></td>
-                                            </tr>
-                                        </table>
-                                </div>
-                                <div class="clear"></div>
-
-                                <div>
-                                    <div class="product">
-                                        <h2>&nbsp;</h2>
-                                        <p>
-                                            &nbsp;
-                                        </p>
-
-                                        <p><img src="images/M101112S.jpg" alt="1986-2012 Softtail Models" width="250" height="186" hspace="15" vspace="15" border="15" class="floatLeft">
-                                            <h2>1984 &#8211; 2014 Softail&reg; Models, Long Style</h2>
-                                            <p>
-                                                Fits with Floorboards or Forward Controls, Cross Bones&#8482;, Night Train&reg;, Nostalgia, Heritage, Bad Boy&reg;, Springer, Fat Boy&reg;, Deluxe. <strong>NOTE:</strong> 2012-14 models require an O2 Sensor Adaptor kit to fit. Available from <a href="http://www.namzcustomcycleproducts.com/products/O2_sensor_extension_kits.html">NAMZcustomcycleproducts.com</a>
-                                            </p>
-                                            <p>
-                                                <strong>Click on part number for larger view.</strong>
-                                            </p>
-                                            <p></p>
-
-                                        </p>
-                                        <a href="pipes.html"><img src="images/read_more_btn.png" alt="Read More" /></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="Patriot Defenders Instuction Sheet M101110S, M101112S.pdf">&nbsp;<img src="images/icon.pdf.gif" alt="" width="38" height="36" />&nbsp;Instructions
-
-                                        </p></p>&nbsp;</a>
-                                        <p>
-                                            <table border="0" align="center" cellpadding="10" cellspacing="0" class="tableregularborder" summary="Product table">
-                                                <tr>
-                                                    <th width="300">Description</th>
-                                                    <th width="100">Part
-                                                    <br />
-                                                    Number</th>
-                                                    <th width="150"> Factory Direct
-                                                    <br />
-                                                    Pricing</th>
-                                                    <th width="175">&nbsp; </th>
-                                                </tr>
-                                                <tr>
-                                                    <td><strong>Stainless / Chrome Heat Shields</strong></td>
-                                                    <td><h3><a href="images/M101112S_LG.jpg" target="_blank">M101112S</a></h3></td>
-                                                    <td><del>$769.99</del>&nbsp; <span id="price">$375.00</span></td>
-                                                    <td width="101">
-                                                    <form action="http://shop.pertronix.com/urlcheckout/add?product=788" method="post">
-                                                        <input type="image" src="images/add_cart_btn.png"  class="submitBtn" alt="Add to Cart" />
-                                                    </form></td>
-                                                </tr>
-                                                <tr>
-                                                    <td><strong>Black Ceramic / Black Heat Shields</strong></td>
-                                                    <td><h3><a href="images/M101112B_LG.jpg" target="_blank">M101112B</a></h3></td>
-                                                    <td><del>$869.99</del>&nbsp; <span id="price">$475.00</span></td>
-                                                    <td>
-                                                    <form action="http://shop.pertronix.com/urlcheckout/add?product=787" method="post">
-                                                        <input type="image" src="images/add_cart_btn.png"  class="submitBtn" alt="Add to Cart" />
-                                                    </form></td>
-                                                </tr>
-                                                <tr>
-                                                    <td><strong>Black Ceramic / Chrome Heat Shields</strong></td>
-                                                    <td><h3><a href="images/M101112X_LG.jpg" target="_blank">M101112X</a></h3></td>
-                                                    <td><del>$869.99</del>&nbsp; <span id="price3">$475.00</span></td>
-                                                    <td>
-                                                    <form action="http://shop.pertronix.com/urlcheckout/add?product=789" method="post">
-                                                        <input type="image" src="images/add_cart_btn.png"  class="submitBtn" alt="Add to Cart" />
-                                                    </form></td>
-                                                </tr>
-                                            </table>
-                                    </div>
-                                    <div class="clear"></div>
-                                    <div>
-                                        <div class="product">
-                                            <h2>&nbsp;</h2>
-                                            <p>
-                                                &nbsp;
-                                            </p>
-
-                                            <p><img src="images/M131410S.jpg" alt="2006– 2012 DYNA GLIDE MODELS" width="250" height="188" hspace="15" vspace="15" border="15" class="floatLeft">
-                                                <h2>2006 - 2014 DYNA&reg; GLIDE MODELS</h2>
-                                                <p>
-                                                    Fits with Forward or Mid Controls, Super Glide&reg;, Wide Glide&reg;, Street Bob&reg;
-                                                    Low Rider&reg;, Fat Bob&trade;
-                                                </p>
-                                                <p>
-                                                    <strong>NOTE:</strong><h4> 2012-14 models require an O2 Sensor Adaptor kit to fit. Available from <a href="http://www.namzcustomcycleproducts.com/products/O2_sensor_extension_kits.html">NAMZcustomcycleproducts</a>
-                                                    <br>
-                                                    Switchback models need slight modification to floorboard mounting</h4>
-                                                </p>
-                                                <strong> Click on part number for larger view.</strong>
-                                            </p>
-
-                                            </p>&nbsp;<p></p>
-                                            <a href="pipes.html"><img src="images/read_more_btn.png" alt="Read More" /></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="Patriot Defenders Instuction Sheet M131910S.pdf">&nbsp;<img src="images/icon.pdf.gif" alt="" width="38" height="36" />&nbsp;Instructions
-
-                                            </p></p>&nbsp;</a>
-                                            <p>
-                                                <table border="0" align="center" cellpadding="10" cellspacing="0" class="tableregularborder" summary="Product table">
-                                                    <tr>
-                                                        <th width="300">Description</th>
-                                                        <th width="100">Part
-                                                        <br />
-                                                        Number</th>
-                                                        <th width="150"> Factory Direct
-                                                        <br />
-                                                        Pricing</th>
-                                                        <th width="175">&nbsp; </th>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><strong>Stainless / Chrome Heat Shields</strong></td>
-                                                        <td><h3><a href="images/M131410S_LG.jpg" target="_blank">M131910S</a></h3></td>
-                                                        <td><del>$769.99</del>&nbsp; <span id="price">$345.00</span></td>
-                                                        <td width="101">
-                                                        <form action="http://shop.pertronix.com/urlcheckout/add?product=804" method="post">
-                                                            <input type="image" src="images/add_cart_btn.png"  class="submitBtn" alt="Add to Cart" />
-                                                        </form></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><strong>Black Ceramic / Black Heat Shields</strong></td>
-                                                        <td><h3><a href="images/M131410B_LG.jpg" target="_blank">M131910B</a></h3></td>
-                                                        <td><del>$869.99</del>&nbsp; <span id="price">$445.00</span></td>
-                                                        <td>
-                                                        <form action="http://shop.pertronix.com/urlcheckout/add?product=803" method="post">
-                                                            <input type="image" src="images/add_cart_btn.png"  class="submitBtn" alt="Add to Cart" />
-                                                        </form></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><strong>Black Ceramic / Chrome Heat Shields</strong></td>
-                                                        <td><h3><a href="images/M131410X_LG.jpg" target="_blank">M131910X</a></h3></td>
-                                                        <td><del>$869.99</del>&nbsp; <span id="price">$445.00</span></td>
-                                                        <td>
-                                                        <form action="http://shop.pertronix.com/urlcheckout/add?product=805" method="post">
-                                                            <input type="image" src="images/add_cart_btn.png"  class="submitBtn" alt="Add to Cart" />
-                                                        </form></td>
-                                                    </tr>
-                                                </table>
-                                        </div>
-                                        <div class="clear"></div>
-                                        <div>
-                                            <div class="product">
-                                                <h2>&nbsp;</h2>
-                                                <p>
-                                                    &nbsp;
-                                                </p>
-
-                                                <p><img src="images/M131410S.jpg" alt="1991– 2005 DYNA GLIDE MODELS" width="250" height="188" hspace="15" vspace="15" border="15" class="floatLeft">
-                                                    <h2>1991 - 2005 DYNA&reg; GLIDE MODELS</h2>
-                                                    <p>
-                                                        Fits with Forward or Mid Controls, Super Glide&reg;, Wide Glide&reg;, Street Bob&reg;
-                                                        Low Rider&reg;, Fat Bob&trade;<strong> Click on part number for larger view.</strong>
-                                                    </p>
-
-                                                </p>
-                                                &nbsp;<p></p>
-                                                <a href="pipes.html"><img src="images/read_more_btn.png" alt="Read More" /></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="Patriot Defenders Instuction Sheet M131410S.pdf">&nbsp;<img src="images/icon.pdf.gif" alt="" width="38" height="36" />&nbsp;Instructions
-
-                                                </p></p>&nbsp;</a>
-                                                <p>
-                                                    <table border="0" align="center" cellpadding="10" cellspacing="0" class="tableregularborder" summary="Product table">
-                                                        <tr>
-                                                            <th width="300">Description</th>
-                                                            <th width="100">Part
-                                                            <br />
-                                                            Number</th>
-                                                            <th width="150"> Factory Direct
-                                                            <br />
-                                                            Pricing</th>
-                                                            <th width="175">&nbsp; </th>
-                                                        </tr>
-                                                        <tr>
-                                                            <td><strong>Stainless / Chrome Heat Shields</strong></td>
-                                                            <td><h3><a href="images/M131410S_LG.jpg" target="_blank">M131410S</a></h3></td>
-                                                            <td><del>$769.99</del>&nbsp; <span id="price">$345.00</span></td>
-                                                            <td width="101">
-                                                            <form action="http://shop.pertronix.com/urlcheckout/add?product=801" method="post">
-                                                                <input type="image" src="images/add_cart_btn.png"  class="submitBtn" alt="Add to Cart" />
-                                                            </form></td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td><strong>Black Ceramic / Black Heat Shields</strong></td>
-                                                            <td><h3><a href="images/M131410B_LG.jpg" target="_blank">M131410B</a></h3></td>
-                                                            <td><del>$869.99</del>&nbsp; <span id="price">$445.00</span></td>
-                                                            <td>
-                                                            <form action="http://shop.pertronix.com/urlcheckout/add?product=800" method="post">
-                                                                <input type="image" src="images/add_cart_btn.png"  class="submitBtn" alt="Add to Cart" />
-                                                            </form></td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td><strong>Black Ceramic / Chrome Heat Shields</strong></td>
-                                                            <td><h3><a href="images/M131410X_LG.jpg" target="_blank">M131410X</a></h3></td>
-                                                            <td><del>$869.99</del>&nbsp; <span id="price">$445.00</span></td>
-                                                            <td>
-                                                            <form action="http://shop.pertronix.com/urlcheckout/add?product=802" method="post">
-                                                                <input type="image" src="images/add_cart_btn.png"  class="submitBtn" alt="Add to Cart" />
-                                                            </form></td>
-                                                        </tr>
-                                                    </table>
-                                            </div>
-                                            <div class="clear"></div>
-                                            <div>
-                                                <h2>&nbsp;</h2>
-                                                <p>
-                                                    &nbsp;
-                                                </p>
-
-                                                <p><img src="images/M121310S.jpg" alt="1986-2012 Touring Models" width="250" height="188" class="floatLeft">
-                                                    <h2>1986 - 2014 Touring Models, Short Style</h2>
-                                                    <p>
-                                                        Fits Street Glide&trade;, Electra Glide&reg;, Ultra Classic&reg;, Road King&reg;, Road Glide&reg;.
-                                                    </p>
-                                                    <p>
-                                                        <h4>NOTE: 2010 - 2014 models require an O2 Sensor Adaptor kit to fit. Available from <a href="http://www.namzcustomcycleproducts.com/products/O2_sensor_extension_kits.html">NAMZcustomcycleproducts</a>
-                                                        <br>
-                                                        Does Not fit "Rushmore" water cooled bikes </h4>
-                                                    </p>
-                                                    <p>
-                                                        <strong>Click on part number for larger view.</strong>
-                                                    </p>
-                                                    <p>
-                                                        <a href="pipes.html"><img src="images/read_more_btn.png" alt="Read More" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="Patriot Defenders Instuction Sheet M121310S.pdf"><img src="images/icon.pdf.gif" alt="" width="38" height="36" />&nbsp;Instructions </a>
-                                                    </p>
-                                                </p>
-                                                &nbsp;
-                                                <p>
-                                                    <table border="0" align="center" cellpadding="10" cellspacing="0" class="tableregularborder" summary="Product table">
-                                                        <tr>
-                                                            <th width="300">Description</th>
-                                                            <th width="100">Part
-                                                            <br />
-                                                            Number</th>
-                                                            <th width="150"> Factory Direct
-                                                            <br />
-                                                            Pricing</th>
-                                                            <th width="150">&nbsp; </th>
-                                                        </tr>
-                                                        <tr>
-                                                            <td><strong>Stainless / Chrome Heat Shields</strong></td>
-                                                            <td><h3><a href="images/M121310S_LG.jpg" target="_blank">M121310S</a></h3></td>
-                                                            <td><del>$849.99</del>&nbsp; <span id="price">$375.00</span></td>
-                                                            <td width="101">
-                                                            <form action="http://shop.pertronix.com/urlcheckout/add?product=791" method="post">
-                                                                <input type="image" src="images/add_cart_btn.png"  class="submitBtn" alt="Add to Cart" />
-                                                            </form></td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td><strong>Black Ceramic / Black Heat Shields</strong></td>
-                                                            <td><h3><a href="images/M121310B_LG.jpg" target="_blank">M121310B </a></h3></td>
-                                                            <td><del>$949.99</del>&nbsp; <span id="price">$475.00</span></td>
-                                                            <td>
-                                                            <form action="http://shop.pertronix.com/urlcheckout/add?product=790" method="post">
-                                                                <input type="image" src="images/add_cart_btn.png"  class="submitBtn" alt="Add to Cart" />
-                                                            </form></td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td><strong>Black Ceramic / Chrome Heat Shields</strong></td>
-                                                            <td><h3><a href="images/M121310X_LG.jpg" target="_blank">M121310X</a></h3></td>
-                                                            <td><del>$949.99</del>&nbsp; <span id="price">$475.00</span></td>
-                                                            <td>
-                                                            <form action="http://shop.pertronix.com/urlcheckout/add?product=792" method="post">
-                                                                <input type="image" src="images/add_cart_btn.png"  class="submitBtn" alt="Add to Cart" />
-                                                            </form>
-                                                        </tr>
-                                                    </table>
-                                            </div>
-                                            <div>
-                                                <h2>&nbsp;</h2>
-                                                <p>
-                                                    &nbsp;
-                                                </p>
-
-                                                <p><img src="images/M121312S.jpg" alt="1986 – 2012 Touring Models" width="250" height="186" class="floatLeft">
-                                                    <h2>1986 - 2014 Touring Models, Long Style</h2>
-                                                    <p>
-                                                        Fits Street Glide&trade;, Electra Glide&reg;, Ultra Classic&reg;, Road King&reg;, Road Glide&reg;.
-                                                    </p>
-                                                    <p>
-                                                        <h4>NOTE: 2010 - 2014 models require an O2 Sensor Adaptor kit to fit. Available from <a href="http://www.namzcustomcycleproducts.com/products/O2_sensor_extension_kits.html">NAMZcustomcycleproducts</a>
-                                                        <br>
-                                                        Does Not fit "Rushmore" water cooled bikes </h4>
-                                                    </p>
-                                                    <p>
-                                                        <strong>Click on part number for larger view.</strong>
-                                                    </p>
-                                                    <p>
-                                                        <a href="pipes.html"><img src="images/read_more_btn.png" alt="Read More" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="Patriot Defenders Instuction Sheet M121312S.pdf"><img src="images/icon.pdf.gif" alt="" width="38" height="36" />&nbsp;Instructions </a>
-                                                    </p>
-                                                    <p>
-                                                        <table border="0" align="center" cellpadding="10" cellspacing="0" class="tableregularborder" summary="Product table">
-                                                            <tr>
-                                                                <th width="300">Description</th>
-                                                                <th width="100">Part
-                                                                <br />
-                                                                Number</th>
-                                                                <th width="150"> Factory Direct
-                                                                <br />
-                                                                Pricing</th>
-                                                                <th width="150">&nbsp; </th>
-                                                            </tr>
-                                                            <tr>
-                                                                <td><strong>Stainless / Chrome Heat Shields</strong></td>
-                                                                <td><h3><a href="images/M121312S_LG.jpg" target="_blank">M121312S</a></h3></td>
-                                                                <td><del>$849.99</del>&nbsp; <span id="price">$375.00</span></td>
-                                                                <td width="101">
-                                                                <form action="http://shop.pertronix.com/urlcheckout/add?product=794" method="post">
-                                                                    <input type="image" src="images/add_cart_btn.png" class="submitBtn" alt="Add to Cart" />
-                                                                </form></td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td><strong>Black Ceramic / Black Heat Shields</strong></td>
-                                                                <td><h3><a href="images/M121312B_LG.jpg" target="_blank">M121312B</a></h3></td>
-                                                                <td><del>$949.99</del>&nbsp; <span id="price">$475.00</span></td>
-                                                                <td>
-                                                                <form action="http://shop.pertronix.com/urlcheckout/add?product=793" method="post">
-                                                                    <input type="image" src="images/add_cart_btn.png"  class="submitBtn" alt="Add to Cart" />
-                                                                </form></td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td><strong>Black Ceramic / Chrome Heat Shields</strong></td>
-                                                                <td><h3><a href="images/M121312X_LG.jpg" target="_blank">M121312X</a></h3></td>
-                                                                <td><del>$949.99</del>&nbsp; <span id="price">$475.00</span></td>
-                                                                <td>
-                                                                <form action="http://shop.pertronix.com/urlcheckout/add?product=795" method="post">
-                                                                    <input type="image" src="images/add_cart_btn.png"  class="submitBtn" alt="Add to Cart" />
-                                                                </form></td>
-                                                            </tr>
-                                                        </table>
-                                            </div>
-                                        </div>
-                                        <!-- Clear -->
-                                        <div class="clear"></div>
-                                        <!-- Clear -->
-
-                                    </div>
-                                    <!-- Main Content Ends Here -->
-                                    <!-- Footer Starts Here -->
-                                    <div id="footer">
-
-                                        <p class="left">
-                                            These exhaust products are not legal for sale or use in California or elsewhere on catalyst equipped vehicles except for racing which may not be operated on a highway. These products may not meet State or Federal Noise Emissions standards and may not be used on any vehicle if such use is in violation of said standards. None of the above  listed pipes are legal for street use in California on 2013 or newer model year  motorcycles
-                                        </p>
-                                        <p class="left">
-                                            * Free Shipping only applies to the Continental US. Alaska, Hawaii and International Shipments will require shipping.
-                                        </p>
-                                    </div>
-                                    <!-- Footer Ends Here -->
-                                    <br />
-                                    <!-- Main Body Ends Here -->
-                                    <!-- <script type="text/javascript">
-                                    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-                                    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-                                    </script>
-                                    <script type="text/javascript">
-                                    try {
-                                    var pageTracker = _gat._getTracker("UA-1317507-5");
-                                    pageTracker._trackPageview();
-                                    } catch(err) {}</script> -->
+                        <table class="producttable">
+                            <tr>
+                                <th class="tabledescd">Description:</th>
+                                <th class="tablepart">Part Number:</th>
+                                <th class="tablepriced">Factory Direct Pricing:</th>
+                                <th class="tableblankd">&nbsp;</th>
+                            </tr>
+                            <tr>
+                                <td><strong>Stainless/Chrome Heat Shields</strong></td>
+                                <td><h3><a href="http://shop.patriotpipes.com/catalog/product/view/id/809" target="_blank">M141510S</a></h3></td>
+                                <td><del class="price">$749.99</del><span class="price2">$345.00</span></td>
+                                <td>
+                                <form action="http://shop.patriotpipes.com/urlcheckout/add?product=809" method="post" target="_blank">
+                                    <input type="submit" class="gradbtn" value="Add to Cart" />
+                                </form></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Black Ceramic/Black Heat Shields</strong></td>
+                                <td><h3><a href="http://shop.patriotpipes.com/catalog/product/view/id/808" target="_blank">M141510B</a></h3></td>
+                                <td><del class="price">$849.99</del><span class="price2">$445.00</span></td>
+                                <td>
+                                <form action="http://shop.patriotpipes.com/urlcheckout/add?product=808" method="post" target="_blank">
+                                    <input type="submit" class="gradbtn" value="Add to Cart" />
+                                </form></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Black Ceramic/Chrome Heat Shields</strong></td>
+                                <td><h3><a href="http://shop.patriotpipes.com/catalog/product/view/id/810" target="_blank">M141510X</a></h3></td>
+                                <td><del class="price">$849.99</del><span class="price2">$445.00</span></td>
+                                <td>
+                                <form action="http://shop.patriotpipes.com/urlcheckout/add?product=810" method="post" target="_blank">
+                                    <input type="submit" class="gradbtn" value="Add to Cart" />
+                                </form></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <!-- Product End -->
+                    <hr class="cloud" />
+                    <!-- Product -->
+                    <div class="product">
+                        <script type="text/javascript">
+                            $(document).ready(function() {
+                                $("#image-2").click(function() {
+                                    $.slimbox([["images/M101110S_LG.jpg", "M101110S Stainless with Chrome Heat Shields"], ["images/M101110X_LG.jpg", "M101110X Black Ceramic with Chrome Heat Shields"], ["images/M101110B_LG.jpg", "M101110B Black Ceramic with Black Heat Shields"]], 0, {
+                                        loop : true
+                                    });
+                                });
+                            });
+                        </script>
+                        <div class="productimage">
+                            <em style="padding: 0px 0px 0px 10px;">M101110S Shown. Click Image for other variants.</em>
+                            <br />
+                            <img src="images/M101110S_LG.jpg" alt="1986-2014 Softtail Short Style" id="image-2" />
+                        </div>
+                        <br />
+                        <h2 class="center">1984 &#8211; 2014 Softail&reg; Models, Short Style</h2>
+                        <p class="center">
+                            Fits with Floorboards or Forward Controls, Cross Bones&trade;, Night Train&reg;, Nostalgia, Heritage, Bad Boy&reg;, Springer, Fat Boy&reg;, Deluxe.
+                            <br />
+                            <strong>NOTE:</strong> 2012-13 models require an O2 Sensor Adaptor kit to fit. Available from <a href="http://www.namzcustomcycleproducts.com/products/O2_sensor_extension_kits.html">NAMZ Custom Cycle Products</a>
+                        </p>
+                        <form action="/pipes.html" class="center" target="_blank">
+                            <input type="submit" class="gradbtn" value="Read More!" />
+                            <a href="Patriot Defenders Instuction Sheet M101110S, M101112S.pdf" target="_blank"><img src="images/icon.pdf.gif" alt="Instruction Sheet PDF" width="38" height="36" />Instructions</a>
+                        </form>
+                        <table class="producttable">
+                            <tr>
+                                <th class="tabledescd">Description:</th>
+                                <th class="tablepart">Part Number:</th>
+                                <th class="tablepriced">Factory Direct Pricing:</th>
+                                <th class="tableblankd">&nbsp;</th>
+                            </tr>
+                            <tr>
+                                <td><strong>Stainless/Chrome Heat Shields</strong></td>
+                                <td><h3><a href="http://shop.patriotpipes.com/catalog/product/view/id/785" target="_blank">M101110S</a></h3></td>
+                                <td><del class="price">$749.99</del><span class="price2">$345.00</span></td>
+                                <td>
+                                <form action="http://shop.patriotpipes.com/urlcheckout/add?product=785" method="post" target="_blank">
+                                    <input type="submit" class="gradbtn" value="Add to Cart" />
+                                </form></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Black Ceramic/Black Heat Shields</strong></td>
+                                <td><h3><a href="http://shop.patriotpipes.com/catalog/product/view/id/784" target="_blank">M101110B</a></h3></td>
+                                <td><del class="price">$849.99</del><span class="price2">$445.00</span></td>
+                                <td>
+                                <form action="http://shop.patriotpipes.com/urlcheckout/add?product=784" method="post" target="_blank">
+                                    <input type="submit" class="gradbtn" value="Add to Cart" />
+                                </form></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Black Ceramic/Chrome Heat Shields</strong></td>
+                                <td><h3><a href="http://shop.patriotpipes.com/catalog/product/view/id/786" target="_blank">M101110X</a></h3></td>
+                                <td><del class="price">$849.99</del><span class="price2">$445.00</span></td>
+                                <td>
+                                <form action="http://shop.patriotpipes.com/urlcheckout/add?product=786" method="post" target="_blank">
+                                    <input type="submit" class="gradbtn" value="Add to Cart" />
+                                </form></td>
+                            </tr>
+                        </table>
+                        <br />
+                    </div>
+                    <!-- Product End -->
+                    <hr class="cloud" />
+                    <!-- Product -->
+                    <div class="product">
+                        <script type="text/javascript">
+                            $(document).ready(function() {
+                                $("#image-3").click(function() {
+                                    $.slimbox([["images/M101112S_LG.jpg", "M101112S Stainless with Chrome Heat Shields"], ["images/M101112X_LG.jpg", "M101112X Black Ceramic with Chrome Heat Shields"], ["images/M101112B_LG.jpg", "M101112B Black Ceramic with Black Heat Shields"]], 0, {
+                                        loop : true
+                                    });
+                                });
+                            });
+                        </script>
+                        <div class="productimage">
+                            <em style="padding: 0px 0px 0px 10px;">M101112S Shown. Click Image for other variants.</em>
+                            <br />
+                            <img src="images/M101112S_LG.jpg" alt="1986-2014 Softtail Models" id="image-3" />
+                        </div>
+                        <br />
+                        <h2 class="center">1984 &#8211; 2014 Softail&reg; Models, Long Style</h2>
+                        <p class="center">
+                            Fits with Floorboards or Forward Controls, Cross Bones&trade;, Night Train&reg;, Nostalgia, Heritage, Bad Boy&reg;, Springer, Fat Boy&reg;, Deluxe.
+                            <br />
+                            <strong>NOTE:</strong> 2012-14 models require an O2 Sensor Adaptor kit to fit. Available from <a href="http://www.namzcustomcycleproducts.com/products/O2_sensor_extension_kits.html">NAMZ Custom Cycle Products</a>
+                        </p>
+                        <form action="/pipes.html" class="center" target="_blank">
+                            <input type="submit" class="gradbtn" value="Read More!" />
+                            <a href="Patriot Defenders Instuction Sheet M101110S, M101112S.pdf" target="_blank"><img src="images/icon.pdf.gif" alt="Instruction Sheet PDF" width="38" height="36" />Instructions</a>
+                        </form>
+                        <table class="producttable">
+                            <tr>
+                                <th class="tabledescd">Description:</th>
+                                <th class="tablepart">Part Number:</th>
+                                <th class="tablepriced">Factory Direct Pricing:</th>
+                                <th class="tableblankd">&nbsp;</th>
+                            </tr>
+                            <tr>
+                                <td><strong>Stainless/Chrome Heat Shields</strong></td>
+                                <td><h3><a href="http://shop.patriotpipes.com/catalog/product/view/id/788" target="_blank">M101112S</a></h3></td>
+                                <td><del class="price">$769.99</del><span class="price2">$375.00</span></td>
+                                <td>
+                                <form action="http://shop.patriotpipes.com/urlcheckout/add?product=788" method="post" target="_blank">
+                                    <input type="submit" class="gradbtn" value="Add to Cart" />
+                                </form></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Black Ceramic/Black Heat Shields</strong></td>
+                                <td><h3><a href="http://shop.patriotpipes.com/catalog/product/view/id/787" target="_blank">M101112B</a></h3></td>
+                                <td><del class="price">$869.99</del><span class="price2">$475.00</span></td>
+                                <td>
+                                <form action="http://shop.patriotpipes.com/urlcheckout/add?product=787" method="post" target="_blank">
+                                    <input type="submit" class="gradbtn" value="Add to Cart" />
+                                </form></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Black Ceramic/Chrome Heat Shields</strong></td>
+                                <td><h3><a href="http://shop.patriotpipes.com/catalog/product/view/id/789" target="_blank">M101112X</a></h3></td>
+                                <td><del class="price">$869.99</del><span class="price2">$475.00</span></td>
+                                <td>
+                                <form action="http://shop.patriotpipes.com/urlcheckout/add?product=789" method="post" target="_blank">
+                                    <input type="submit" class="gradbtn" value="Add to Cart" />
+                                </form></td>
+                            </tr>
+                        </table>
+                        <br />
+                    </div>
+                    <!-- Product End -->
+                    <hr class="cloud" />
+                    <!-- Product -->
+                    <div class="product">
+                        <script type="text/javascript">
+                            $(document).ready(function() {
+                                $("#image-4").click(function() {
+                                    $.slimbox([["images/M131410S_LG.jpg", "M131910S Stainless with Chrome Heat Shields"], ["images/M131410X_LG.jpg", "M131910X Black Ceramic with Chrome Heat Shields"], ["images/M131410B_LG.jpg", "M131910B Black Ceramic with Black Heat Shields"]], 0, {
+                                        loop : true
+                                    });
+                                });
+                            });
+                        </script>
+                        <div class="productimage">
+                            <em style="padding: 0px 0px 0px 10px;">M131910S Shown. Click Image for other variants.</em>
+                            <br />
+                            <img src="images/M131410S_LG.jpg" alt="2006 - 2014 Dyna Glide Models" id="image-4" />
+                        </div>
+                        <br />
+                        <h2 class="center">2006 - 2014 Dyna&reg; Glide Models</h2>
+                        <p class="center">
+                            Fits with Forward or Mid Controls, Super Glide&reg;, Wide Glide&reg;, Street Bob&reg; Low Rider&reg;, Fat Bob&trade;
+                            <br />
+                            <strong>NOTE:</strong>2012-14 models require an O2 Sensor Adaptor kit to fit. Available from <a href="http://www.namzcustomcycleproducts.com/products/O2_sensor_extension_kits.html" target="_blank">NAMZ Custom Cycle Products</a>
+                            <br />
+                            Switchback models need slight modification to floorboard mounting
+                        </p>
+                        <form action="/pipes.html" class="center" target="_blank">
+                            <input type="submit" class="gradbtn" value="Read More!" />
+                            <a href="Patriot Defenders Instuction Sheet M131910S.pdf"target="_blank"><img src="images/icon.pdf.gif" alt="Instruction Sheet PDF" width="38" height="36" />Instructions</a>
+                        </form>
+                        <table class="producttable">
+                            <tr>
+                                <th class="tabledescd">Description:</th>
+                                <th class="tablepart">Part Number:</th>
+                                <th class="tablepriced">Factory Direct Pricing:</th>
+                                <th class="tableblankd">&nbsp;</th>
+                            </tr>
+                            <tr>
+                                <td><strong>Stainless/Chrome Heat Shields</strong></td>
+                                <td><h3><a href="http://shop.patriotpipes.com/catalog/product/view/id/804" target="_blank">M131910S</a></h3></td>
+                                <td><del class="price">$769.99</del><span class="price2">$345.00</span></td>
+                                <td>
+                                <form action="http://shop.patriotpipes.com/urlcheckout/add?product=804" method="post" target="_blank">
+                                    <input type="submit" class="gradbtn" value="Add to Cart" />
+                                </form></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Black Ceramic/Black Heat Shields</strong></td>
+                                <td><h3><a href="http://shop.patriotpipes.com/catalog/product/view/id/803" target="_blank">M131910B</a></h3></td>
+                                <td><del class="price">$869.99</del><span class="price2">$445.00</span></td>
+                                <td>
+                                <form action="http://shop.patriotpipes.com/urlcheckout/add?product=803" method="post" target="_blank">
+                                    <input type="submit" class="gradbtn" value="Add to Cart" />
+                                </form></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Black Ceramic/Chrome Heat Shields</strong></td>
+                                <td><h3><a href="http://shop.patriotpipes.com/catalog/product/view/id/805" target="_blank">M131910X</a></h3></td>
+                                <td><del class="price">$869.99</del><span class="price2">$445.00</span></td>
+                                <td>
+                                <form action="http://shop.patriotpipes.com/urlcheckout/add?product=805" method="post" target="_blank">
+                                    <input type="submit" class="gradbtn" value="Add to Cart" />
+                                </form></td>
+                            </tr>
+                        </table>
+                        <br />
+                    </div>
+                    <!-- Product End -->
+                    <hr class="cloud" />
+                    <!-- Product -->
+                    <div class="product">
+                        <script type="text/javascript">
+                            $(document).ready(function() {
+                                $("#image-5").click(function() {
+                                    $.slimbox([["images/M131410S_LG.jpg", "M131410S Stainless with Chrome Heat Shields"], ["images/M131410X_LG.jpg", "M131410X Black Ceramic with Chrome Heat Shields"], ["images/M131410B_LG.jpg", "M131410B Black Ceramic with Black Heat Shields"]], 0, {
+                                        loop : true
+                                    });
+                                });
+                            });
+                        </script>
+                        <div class="productimage">
+                            <em style="padding: 0px 0px 0px 10px;">M131410S Shown. Click Image for other variants.</em>
+                            <br />
+                            <img src="images/M131410S_LG.jpg" alt="2006 - 2014 Duna Glide Models" id="image-5" />
+                        </div>
+                        <br />
+                        <h2 class="center">1991 - 2005 Dyna&reg; Glide Models</h2>
+                        <p class="center">
+                            Fits with Forward or Mid Controls, Super Glide&reg;, Wide Glide&reg;, Street Bob&reg; Low Rider&reg;, Fat Bob&trade;
+                        </p>
+                        <form action="/pipes.html" class="center" target="_blank">
+                            <input type="submit" class="gradbtn" value="Read More!" />
+                            <a href="Patriot Defenders Instuction Sheet M131410S.pdf"target="_blank"><img src="images/icon.pdf.gif" alt="Instruction Sheet PDF" width="38" height="36" />Instructions</a>
+                        </form>
+                        <table class="producttable">
+                            <tr>
+                                <th class="tabledescd">Description:</th>
+                                <th class="tablepart">Part Number:</th>
+                                <th class="tablepriced">Factory Direct Pricing:</th>
+                                <th class="tableblankd">&nbsp;</th>
+                            </tr>
+                            <tr>
+                                <td><strong>Stainless/Chrome Heat Shields</strong></td>
+                                <td><h3><a href="http://shop.patriotpipes.com/catalog/product/view/id/801" target="_blank">M131410S</a></h3></td>
+                                <td><del class="price">$769.99</del><span class="price2">$345.00</span></td>
+                                <td>
+                                <form action="http://shop.patriotpipes.com/urlcheckout/add?product=801" method="post" target="_blank">
+                                    <input type="submit" class="gradbtn" value="Add to Cart" />
+                                </form></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Black Ceramic/Black Heat Shields</strong></td>
+                                <td><h3><a href="http://shop.patriotpipes.com/catalog/product/view/id/800" target="_blank">M131410B</a></h3></td>
+                                <td><del class="price">$869.99</del><span class="price2">$445.00</span></td>
+                                <td>
+                                <form action="http://shop.patriotpipes.com/urlcheckout/add?product=800" method="post" target="_blank">
+                                    <input type="submit" class="gradbtn" value="Add to Cart" />
+                                </form></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Black Ceramic/Chrome Heat Shields</strong></td>
+                                <td><h3><a href="http://shop.patriotpipes.com/catalog/product/view/id/802" target="_blank">M131410X</a></h3></td>
+                                <td><del class="price">$869.99</del><span class="price2">$445.00</span></td>
+                                <td>
+                                <form action="http://shop.patriotpipes.com/urlcheckout/add?product=802" method="post" target="_blank">
+                                    <input type="submit" class="gradbtn" value="Add to Cart" />
+                                </form></td>
+                            </tr>
+                        </table>
+                        <br />
+                    </div>
+                    <!-- Product End -->
+                    <hr class="cloud" />
+                    <!-- Product -->
+                    <div class="product">
+                        <script type="text/javascript">
+                            $(document).ready(function() {
+                                $("#image-6").click(function() {
+                                    $.slimbox([["images/M121310S_LG.jpg", "M121310S Stainless with Chrome Heat Shields"], ["images/M121310X_LG.jpg", "M121310X Black Ceramic with Chrome Heat Shields"], ["images/M121310B_LG.jpg", "M121310B Black Ceramic with Black Heat Shields"]], 0, {
+                                        loop : true
+                                    });
+                                });
+                            });
+                        </script>
+                        <div class="productimage">
+                            <em style="padding: 0px 0px 0px 10px;">M121310S Shown. Click Image for other variants.</em>
+                            <br />
+                            <img src="images/M121310S_LG.jpg" alt="1986 - 2014 Touring Models, Short Style" id="image-6" />
+                        </div>
+                        <br />
+                        <h2 class="center">1986 - 2014 Touring Models, Short Style</h2>
+                        <p class="center">
+                            Fits Street Glide&trade;, Electra Glide&reg;, Ultra Classic&reg;, Road King&reg;, Road Glide&reg;.
+                            <br />
+                            <strong>NOTE:</strong> 2010 - 2014 models require an O2 Sensor Adaptor kit to fit. Available from <a href="http://www.namzcustomcycleproducts.com/products/O2_sensor_extension_kits.html">NAMZ Custom Cycle Products.</a>
+                            <br />
+                            Does Not fit "Rushmore" water cooled bikes
+                        </p>
+                        <form action="/pipes.html" class="center" target="_blank">
+                            <input type="submit" class="gradbtn" value="Read More!" />
+                            <a href="Patriot Defenders Instuction Sheet M121310S.pdf"target="_blank"><img src="images/icon.pdf.gif" alt="Instruction Sheet PDF" width="38" height="36" />Instructions</a>
+                        </form>
+                        <table class="producttable">
+                            <tr>
+                                <th class="tabledescd">Description:</th>
+                                <th class="tablepart">Part Number:</th>
+                                <th class="tablepriced">Factory Direct Pricing:</th>
+                                <th class="tableblankd">&nbsp;</th>
+                            </tr>
+                            <tr>
+                                <td><strong>Stainless/Chrome Heat Shields</strong></td>
+                                <td><h3><a href="http://shop.patriotpipes.com/catalog/product/view/id/791" target="_blank">M121310S</a></h3></td>
+                                <td><del class="price">$849.99</del><span class="price2">$375.00</span></td>
+                                <td>
+                                <form action="http://shop.patriotpipes.com/urlcheckout/add?product=791" method="post" target="_blank">
+                                    <input type="submit" class="gradbtn" value="Add to Cart" />
+                                </form></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Black Ceramic/Black Heat Shields</strong></td>
+                                <td><h3><a href="http://shop.patriotpipes.com/catalog/product/view/id/790" target="_blank">M121310B</a></h3></td>
+                                <td><del class="price">$949.99</del><span class="price2">$475.00</span></td>
+                                <td>
+                                <form action="http://shop.patriotpipes.com/urlcheckout/add?product=790" method="post" target="_blank">
+                                    <input type="submit" class="gradbtn" value="Add to Cart" />
+                                </form></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Black Ceramic/Chrome Heat Shields</strong></td>
+                                <td><h3><a href="http://shop.patriotpipes.com/catalog/product/view/id/792" target="_blank">M121310X</a></h3></td>
+                                <td><del class="price">$949.99</del><span class="price2">$475.00</span></td>
+                                <td>
+                                <form action="http://shop.patriotpipes.com/urlcheckout/add?product=792" method="post" target="_blank">
+                                    <input type="submit" class="gradbtn" value="Add to Cart" />
+                                </form></td>
+                            </tr>
+                        </table>
+                        <br />
+                    </div>
+                    <!-- Product End -->
+                    <hr class="cloud" />
+                    <!-- Product -->
+                    <div class="product">
+                        <script type="text/javascript">
+                            $(document).ready(function() {
+                                $("#image-7").click(function() {
+                                    $.slimbox([["images/M121312S_LG.jpg", "M121312S Stainless with Chrome Heat Shields"], ["images/M121312X_LG.jpg", "M121312X Black Ceramic with Chrome Heat Shields"], ["images/M121312B_LG.jpg", "M121312B Black Ceramic with Black Heat Shields"]], 0, {
+                                        loop : true
+                                    });
+                                });
+                            });
+                        </script>
+                        <div class="productimage">
+                            <em style="padding: 0px 0px 0px 10px;">M121312S Shown. Click Image for other variants.</em>
+                            <br />
+                            <img src="images/M121312S_LG.jpg" alt="1986 - 2014 Touring Models, Long Style" id="image-7" />
+                        </div>
+                        <br />
+                        <h2 class="center">1986 - 2014 Touring Models, Long Style</h2>
+                        <p class="center">
+                            Fits Street Glide&trade;, Electra Glide&reg;, Ultra Classic&reg;, Road King&reg;, Road Glide&reg;.
+                            <br />
+                            <strong>NOTE:</strong> 2010 - 2014 models require an O2 Sensor Adaptor kit to fit. Available from <a href="http://www.namzcustomcycleproducts.com/products/O2_sensor_extension_kits.html">NAMZ Custom Cycle Products.</a>
+                            <br />
+                            Does Not fit "Rushmore" water cooled bikes
+                        </p>
+                        <form action="/pipes.html" class="center" target="_blank">
+                            <input type="submit" class="gradbtn" value="Read More!" />
+                            <a href="Patriot Defenders Instuction Sheet M121312S.pdf"target="_blank"><img src="images/icon.pdf.gif" alt="Instruction Sheet PDF" width="38" height="36" />Instructions</a>
+                        </form>
+                        <table class="producttable">
+                            <tr>
+                                <th class="tabledescd">Description:</th>
+                                <th class="tablepart">Part Number:</th>
+                                <th class="tablepriced">Factory Direct Pricing:</th>
+                                <th class="tableblankd">&nbsp;</th>
+                            </tr>
+                            <tr>
+                                <td><strong>Stainless/Chrome Heat Shields</strong></td>
+                                <td><h3><a href="http://shop.patriotpipes.com/catalog/product/view/id/794" target="_blank">M121312S</a></h3></td>
+                                <td><del class="price">$849.99</del><span class="price2">$375.00</span></td>
+                                <td>
+                                <form action="http://shop.patriotpipes.com/urlcheckout/add?product=794" method="post" target="_blank">
+                                    <input type="submit" class="gradbtn" value="Add to Cart" />
+                                </form></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Black Ceramic/Black Heat Shields</strong></td>
+                                <td><h3><a href="http://shop.patriotpipes.com/catalog/product/view/id/793" target="_blank">M121312B</a></h3></td>
+                                <td><del class="price">$949.99</del><span class="price2">$475.00</span></td>
+                                <td>
+                                <form action="http://shop.patriotpipes.com/urlcheckout/add?product=793" method="post" target="_blank">
+                                    <input type="submit" class="gradbtn" value="Add to Cart" />
+                                </form></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Black Ceramic/Chrome Heat Shields</strong></td>
+                                <td><h3><a href="http://shop.patriotpipes.com/catalog/product/view/id/795" target="_blank">M121312X</a></h3></td>
+                                <td><del class="price">$949.99</del><span class="price2">$475.00</span></td>
+                                <td>
+                                <form action="http://shop.patriotpipes.com/urlcheckout/add?product=795" method="post" target="_blank">
+                                    <input type="submit" class="gradbtn" value="Add to Cart" />
+                                </form></td>
+                            </tr>
+                        </table>
+                        <br />
+                    </div>
+                    <!-- Product End -->
+                    <!-- Footer -->
+                    <hr class="hrgrad" />
+                    <div id="footer">
+                        <p class="left">
+                            These exhaust products are not legal for sale or use in California or elsewhere on catalyst equipped vehicles except for racing which may not be operated on a highway. These products may not meet State or Federal Noise Emissions standards and may not be used on any vehicle if such use is in violation of said standards. None of the above  listed pipes are legal for street use in California on 2013 or newer model year  motorcycles
+                        </p>
+                        <p class="left">
+                            <strong>* Free Shipping only applies to the Continental US. Alaska, Hawaii and International Shipments will require shipping.</strong>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
