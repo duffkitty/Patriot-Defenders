@@ -25,21 +25,6 @@ th {
     text-align: left;
     font-weight: normal;
 }
-textarea {
-    width: 350px;
-    height: 80px;
-    border: 1px solid #39454E;
-    background: #E1E1E1;
-    margin-top: 2px;
-}
-textarea:hover {
-    width: 350px;
-    height: 80px;
-    border: 1px solid #39454E;
-    background: #FFFFFF;
-    margin-top: 2px;
-}
-
 a {
     text-decoration: none;
     cursor: pointer;
@@ -225,6 +210,12 @@ div.readmorebtn {
     width: 300px;
     float: right;
 }
+.defenderright img {
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
+    margin-top: 10px;
+}
 #defendermain p {
     padding: 5px 0px 5px 0px;
 }
@@ -262,6 +253,9 @@ div.readmorebtn {
 #footer a {
     text-decoration: none;
     color: #5d6c77;
+}
+#footer p {
+    padding-bottom: 50px;
 }
 #footer span {
     padding: 0px 5px 0px 5px;
@@ -361,7 +355,10 @@ div.productimage img {
     text-align: left;
     padding-top: 20px;
 }
-
+#addthis {
+    clear: both;
+    margin-top: 5px;
+}
 /* Image Zoom */
 #dyno {
     width: 150px;height 120px;
@@ -396,12 +393,18 @@ div.productimage img {
 /* Controller Specific */
 #bundlecallout {
     text-align: center;
-    padding-top: 10px;
 }
 #bundlecallout p {
     padding-left: 5px;
 }
-
+#bundlecallout h3 {
+    margin-top: 10px;
+    color: #222222;
+    margin-bottom: -10px;
+}
+#bundlecallout img {
+    background-color: #FFFFFF;
+}
 /* Tables */
 #controllertable table {
     width: 100%;
@@ -419,26 +422,26 @@ div.productimage img {
 #controllertable h4 {
     color: #FF0000;
 }
-#controllertable tr{
+#controllertable tr {
     border: 1px solid #666666;
 }
 #controllertable tr:nth-child(odd) {
-  background: #EEE;
+    background: #EEE;
 }
 .tablepart {
     width: 100px;
 }
 /*
-.tleft {
-    border-left: 1px solid black;
-    padding-left: 2px;
-}
-.tright {
-    border-right: 1px solid black;
-    padding-right: 2px;
-    text-align: right;
-}
-/* c = Controller Specific */
+ .tleft {
+ border-left: 1px solid black;
+ padding-left: 2px;
+ }
+ .tright {
+ border-right: 1px solid black;
+ padding-right: 2px;
+ text-align: right;
+ }
+ /* c = Controller Specific */
 .tablepricec {
     width: 75px;
 }
@@ -461,4 +464,23 @@ div.productimage img {
 }
 .tableblankd {
     width: 175px;
+}
+
+/* Contact Us Form */
+#contact_us {
+    margin: 20px auto 5px auto;
+    padding: 5px 5px 10px 5px;
+    background: #F1F1F1;
+    -moz-box-shadow: 3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow: 3px 3px 5px 6px #ccc;
+}
+#contact_us .widefield {
+    width: 45%
+}
+#contact_us #formlogo {
+    width: 265px;
+    height: 123px;
+    float: right;
+    margin-top: -10px;
 }
