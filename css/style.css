@@ -7,7 +7,7 @@
 
 body {
     background: #E1E1E1;
-    font-family: 'Cabin', sans-serif;
+    font-family: Cabin, sans-serif;
     font-size: 90%;
     font-weight: 500;
     color: #39454E;
@@ -307,7 +307,7 @@ div.readmorebtn {
     -webkit-border-radius: 5px;
     border-radius: 6px;
     color: #1A2833;
-    font-family: 'Cabin', sans-serif;
+    font-family: Cabin, sans-serif;
     font-size: 14px;
     font-weight: 700;
     text-decoration: none;
