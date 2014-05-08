@@ -7,111 +7,141 @@
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 <url>
-  <loc>http://patriotpipes.com/</loc>
+  <loc>http://www.patriotpipes.com/</loc>
+  <changefreq>monthly</changefreq>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://patriotpipes.com/index.html</loc>
+  <loc>http://www.patriotpipes.com/index.html</loc>
+  <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://patriotpipes.com/pipes.html</loc>
+  <loc>http://www.patriotpipes.com/pipes.html</loc>
+  <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://patriotpipes.com/controller.html</loc>
+  <loc>http://www.patriotpipes.com/controller.html</loc>
+  <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://patriotpipes.com/contact_us.html</loc>
+  <loc>http://www.patriotpipes.com/video.html</loc>
+  <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://patriotpipes.com/models.html</loc>
+  <loc>http://www.patriotpipes.com/contact_us.html</loc>
+  <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://patriotpipes.com/video.html</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://patriotpipes.com/Patriot%20Top%20Fueler%20M161600L%20Instuction%20Sheet.pdf</loc>
-  <lastmod>2012-10-03T19:36:22+00:00</lastmod>
+  <loc>http://www.patriotpipes.com/instructions/M122400L%20Patriot%20Top%20Fueler%20Instuction%20Sheet.pdf</loc>
+  <lastmod>2014-05-08T20:39:48+00:00</lastmod>
+  <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://patriotpipes.com/Patriot%20Top%20Fueler%20M161600R%20Instuction%20Sheet.pdf</loc>
-  <lastmod>2012-10-03T19:36:24+00:00</lastmod>
+  <loc>http://www.patriotpipes.com/instructions/M122400R%20Patriot%20Top%20Fueler%20Instuction%20Sheet.pdf</loc>
+  <lastmod>2014-05-08T20:40:18+00:00</lastmod>
+  <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://patriotpipes.com/Patriot%20Top%20Fueler%20M161702L%20Instuction%20Sheet.pdf</loc>
-  <lastmod>2012-10-03T19:36:25+00:00</lastmod>
+  <loc>http://www.patriotpipes.com/instructions/M141400L%20Patriot%20Top%20Fueler%20Instuction%20Sheet.pdf</loc>
+  <lastmod>2014-05-08T20:36:51+00:00</lastmod>
+  <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://patriotpipes.com/Patriot%20Top%20Fueler%20M161702R%20Instuction%20Sheet.pdf</loc>
-  <lastmod>2012-10-03T19:36:25+00:00</lastmod>
+  <loc>http://www.patriotpipes.com/instructions/M141400R%20Patriot%20Top%20Fueler%20Instuction%20Sheet.pdf</loc>
+  <lastmod>2014-05-08T20:35:30+00:00</lastmod>
+  <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://patriotpipes.com/Patriot%20Top%20Fueler%20M161201L%20Instuction%20Sheet.pdf</loc>
-  <lastmod>2012-10-03T19:36:21+00:00</lastmod>
+  <loc>http://www.patriotpipes.com/instructions/Patriot%20Top%20Fueler%20M161600L%20Instuction%20Sheet.pdf</loc>
+  <lastmod>2014-02-28T00:21:15+00:00</lastmod>
+  <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://patriotpipes.com/Patriot%20Top%20Fueler%20M161201R%20Instuction%20Sheet.pdf</loc>
-  <lastmod>2012-10-03T19:36:22+00:00</lastmod>
+  <loc>http://www.patriotpipes.com/instructions/Patriot%20Top%20Fueler%20M161600R%20Instuction%20Sheet.pdf</loc>
+  <lastmod>2014-02-28T00:21:15+00:00</lastmod>
+  <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://patriotpipes.com/Patriot%20Top%20Fueler%20M121800L%20Instuction%20Sheet.pdf</loc>
-  <lastmod>2012-10-03T19:36:12+00:00</lastmod>
+  <loc>http://www.patriotpipes.com/instructions/Patriot%20Top%20Fueler%20M161702L%20Instuction%20Sheet.pdf</loc>
+  <lastmod>2014-02-28T00:21:13+00:00</lastmod>
+  <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://patriotpipes.com/Patriot%20Top%20Fueler%20M121800R%20Instuction%20Sheet.pdf</loc>
-  <lastmod>2012-10-03T19:36:13+00:00</lastmod>
+  <loc>http://www.patriotpipes.com/instructions/Patriot%20Top%20Fueler%20M161702R%20Instuction%20Sheet.pdf</loc>
+  <lastmod>2014-02-28T00:21:14+00:00</lastmod>
+  <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://patriotpipes.com/Patriot%20Top%20Fueler%20M141200L%20Instuction%20Sheet.pdf</loc>
-  <lastmod>2012-10-03T19:36:15+00:00</lastmod>
+  <loc>http://www.patriotpipes.com/instructions/M162100L%20Patriot%20Top%20Fueler%20Instruction%20Sheet.pdf</loc>
+  <lastmod>2014-05-08T20:41:39+00:00</lastmod>
+  <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://patriotpipes.com/Patriot%20Top%20Fueler%20M141200R%20Instuction%20Sheet.pdf</loc>
-  <lastmod>2012-10-03T19:36:17+00:00</lastmod>
+  <loc>http://www.patriotpipes.com/instructions/M162100R%20Patriot%20Top%20Fueler%20Instruction%20Sheet.pdf</loc>
+  <lastmod>2014-05-08T20:42:08+00:00</lastmod>
+  <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://patriotpipes.com/Patriot%20Defenders%20Instuction%20Sheet%20M141510S.pdf</loc>
-  <lastmod>2012-10-03T19:36:11+00:00</lastmod>
+  <loc>http://www.patriotpipes.com/instructions/Patriot%20Top%20Fueler%20M161201L%20Instuction%20Sheet.pdf</loc>
+  <lastmod>2014-02-28T00:21:16+00:00</lastmod>
+  <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://patriotpipes.com/Patriot%20Defenders%20Instuction%20Sheet%20M101110S,%20M101112S.pdf</loc>
-  <lastmod>2012-10-03T19:36:02+00:00</lastmod>
+  <loc>http://www.patriotpipes.com/instructions/Patriot%20Top%20Fueler%20M161201R%20Instuction%20Sheet.pdf</loc>
+  <lastmod>2014-02-28T00:21:16+00:00</lastmod>
+  <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://patriotpipes.com/Patriot%20Defenders%20Instuction%20Sheet%20M131910S.pdf</loc>
-  <lastmod>2012-10-03T19:36:10+00:00</lastmod>
+  <loc>http://www.patriotpipes.com/instructions/Patriot%20Top%20Fueler%20M121800L%20Instuction%20Sheet.pdf</loc>
+  <lastmod>2014-02-28T00:21:23+00:00</lastmod>
+  <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://patriotpipes.com/Patriot%20Defenders%20Instuction%20Sheet%20M131410S.pdf</loc>
-  <lastmod>2012-10-03T19:36:08+00:00</lastmod>
+  <loc>http://www.patriotpipes.com/instructions/Patriot%20Top%20Fueler%20M121800R%20Instuction%20Sheet.pdf</loc>
+  <lastmod>2014-02-28T00:21:22+00:00</lastmod>
+  <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://patriotpipes.com/Patriot%20Defenders%20Instuction%20Sheet%20M121310S.pdf</loc>
-  <lastmod>2012-10-03T19:36:04+00:00</lastmod>
+  <loc>http://www.patriotpipes.com/instructions/M122000L%20Patriot%20Top%20Fueler%20Instuction%20Sheet.pdf</loc>
+  <lastmod>2014-05-08T21:51:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://patriotpipes.com/Patriot%20Defenders%20Instuction%20Sheet%20M121312S.pdf</loc>
-  <lastmod>2012-10-03T19:36:06+00:00</lastmod>
+  <loc>http://www.patriotpipes.com/instructions/M122000R%20Patriot%20Top%20Fueler%20Instuction%20Sheet.pdf</loc>
+  <lastmod>2014-05-08T21:52:13+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.patriotpipes.com/instructions/Patriot%20Top%20Fueler%20M141200L%20Instuction%20Sheet.pdf</loc>
+  <lastmod>2014-02-28T00:21:22+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.patriotpipes.com/instructions/Patriot%20Top%20Fueler%20M141200R%20Instuction%20Sheet.pdf</loc>
+  <lastmod>2014-02-28T00:21:19+00:00</lastmod>
+  <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
 </urlset>
