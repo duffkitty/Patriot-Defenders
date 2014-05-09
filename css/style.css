@@ -302,7 +302,6 @@ div.readmorebtn {
     background: -o-linear-gradient(top,  #d5d5d5 0%,#999da2 100%); /* Opera 11.10+ */
     background: -ms-linear-gradient(top,  #d5d5d5 0%,#999da2 100%); /* IE10+ */
     background: linear-gradient(to bottom,  #d5d5d5 0%,#999da2 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d5d5d5', endColorstr='#999da2',GradientType=0 ); /* IE6-9 */
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 6px;
@@ -324,7 +323,6 @@ div.readmorebtn {
     background: -o-linear-gradient(top,  #ff6b00 0%,#d5d5d5 100%); /* Opera 11.10+ */
     background: -ms-linear-gradient(top,  #ff6b00 0%,#d5d5d5 100%); /* IE10+ */
     background: linear-gradient(to bottom,  #ff6b00 0%,#d5d5d5 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6b00', endColorstr='#d5d5d5',GradientType=0 ); /* IE6-9 */
     color: #1A2833;
     box-shadow: 0px 0px 2px #777;
 }

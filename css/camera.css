@@ -3,10 +3,10 @@
 *	GENERAL
 *
 **************************/
-.camera_wrap a, .camera_wrap img, 
+.camera_wrap a, .camera_wrap img,
 .camera_wrap ol, .camera_wrap ul, .camera_wrap li,
 .camera_wrap table, .camera_wrap tbody, .camera_wrap tfoot, .camera_wrap thead, .camera_wrap tr, .camera_wrap th, .camera_wrap td
-.camera_thumbs_wrap a, .camera_thumbs_wrap img, 
+.camera_thumbs_wrap a, .camera_thumbs_wrap img,
 .camera_thumbs_wrap ol, .camera_thumbs_wrap ul, .camera_thumbs_wrap li,
 .camera_thumbs_wrap table, .camera_thumbs_wrap tbody, .camera_thumbs_wrap tfoot, .camera_thumbs_wrap thead, .camera_thumbs_wrap tr, .camera_thumbs_wrap th, .camera_thumbs_wrap td {
 	background: none;
@@ -263,7 +263,7 @@
 .camera_wrap .camera_pag .camera_pag_ul li.cameracurrent > span {
 	-moz-box-shadow: 0;
 	-webkit-box-shadow: 0;
-	box-shadow: 0;
+	box-shadow: none;
 }
 .camera_pag_ul li img {
 	display: none;
@@ -455,7 +455,7 @@
 	background: #b7b7b7;
 }
 .camera_thumbs_cont ul li > img {
-	border-color: 1px solid #000;
+	border: 1px solid #000;
 }
 /*AMBER SKIN*/
 .camera_amber_skin .camera_prevThumbs div {
