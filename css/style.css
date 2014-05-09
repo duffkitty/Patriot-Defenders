@@ -431,17 +431,7 @@ div.productimage img {
 .tablepart {
     width: 100px;
 }
-/*
- .tleft {
- border-left: 1px solid black;
- padding-left: 2px;
- }
- .tright {
- border-right: 1px solid black;
- padding-right: 2px;
- text-align: right;
- }
- /* c = Controller Specific */
+/* c = Controller Specific */
 .tablepricec {
     width: 75px;
 }
