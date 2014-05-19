@@ -188,6 +188,10 @@ div.readmorebtn {
     margin-bottom: 7px;
     margin-top: 12px;
 }
+h3.small_headers {
+    font-weight: normal;
+    font-family: Impact, Charcoal, fantasy;
+}
 #bottombtns form {
     display: inline;
 }
