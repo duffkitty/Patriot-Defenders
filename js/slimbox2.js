@@ -3,43 +3,41 @@
  (c) 2007-2013 Christophe Beyls <http://www.digitalia.be>
  MIT-style license.
  */
-(function (w) {
+(function(w) {
     var E = w(window), u, f, F = -1, n, x, D, v, y, L, r, m = !window.XMLHttpRequest, s = [], l = document.documentElement, k = {}, t = new Image(), J = new Image(), H, a, g, p, I, d, G, c, A, K;
-    w(function () {
+    w(function() {
         w("body").append(w([ H = w('<div id="lbOverlay" />').click(C)[0], a = w('<div id="lbCenter" />')[0], G = w('<div id="lbBottomContainer" />')[0]]).css("display", "none"));
-        g = w('<div id="lbImage" />').appendTo(a).append(p = w('<div style="position: relative;" />').append([I = w('<a id="lbPrevLink" href="#" />').click(B)[0], d = w('<a id="lbNextLink" href="#" />').click(e)[0]])[0])[0];
-        c = w('<div id="lbBottom" />').appendTo(G).append([w('<a id="lbCloseLink" href="#" />').click(C)[0], A = w('<div id="lbCaption" />')[0], K = w('<div id="lbNumber" />')[0], w('<div style="clear: both;" />')[0]])[0]
+        g = w('<div id="lbImage" />').appendTo(a).append(p=w('<div style="position: relative;" />').append([I=w('<a id="lbPrevLink" href="#" />').click(B)[0],d=w('<a id="lbNextLink" href="#" />').click(e)[0]])[0])[0];
+        c = w('<div id="lbBottom" />').appendTo(G).append([w('<a id="lbCloseLink" href="#" />').click(C)[0],A=w('<div id="lbCaption" />')[0],K=w('<div id="lbNumber" />')[0],w('<div style="clear: both;" />')[0]])[0]
     });
-    w.slimbox = function (O, N, M) {
+    w.slimbox = function(O, N, M) {
         u = w.extend({
-            loop: false,
-            overlayOpacity: 0.8,
-            overlayFadeDuration: 400,
-            resizeDuration: 400,
-            resizeEasing: "swing",
-            initialWidth: 250,
-            initialHeight: 250,
-            imageFadeDuration: 400,
-            captionAnimationDuration: 400,
-            counterText: "Image {x} of {y}",
-            closeKeys: [27, 88, 67],
-            previousKeys: [37, 80],
-            nextKeys: [39, 78]
+            loop : false,
+            overlayOpacity : 0.8,
+            overlayFadeDuration : 400,
+            resizeDuration : 400,
+            resizeEasing : "swing",
+            initialWidth : 250,
+            initialHeight : 250,
+            imageFadeDuration : 400,
+            captionAnimationDuration : 400,
+            counterText : "Image {x} of {y}",
+            closeKeys : [27, 88, 67],
+            previousKeys : [37, 80],
+            nextKeys : [39, 78]
         }, M);
-        if (typeof O == "string") {
-            O = [
-                [O, N]
-            ];
+        if ( typeof O == "string") {
+            O = [[O, N]];
             N = 0
         }
         y = E.scrollTop() + (E.height() / 2);
         L = u.initialWidth;
         r = u.initialHeight;
         w(a).css({
-            top: Math.max(0, y - (r / 2)),
-            width: L,
-            height: r,
-            marginLeft: -L / 2
+            top : Math.max(0, y - (r / 2)),
+            width : L,
+            height : r,
+            marginLeft : -L / 2
         }).show();
         v = m || (H.currentStyle && (H.currentStyle.position != "fixed"));
         if (v) {
@@ -52,22 +50,22 @@
         u.loop = u.loop && (f.length > 1);
         return b(N)
     };
-    w.fn.slimbox = function (M, P, O) {
+    w.fn.slimbox = function(M, P, O) {
         P = P ||
-            function (Q) {
-                return [Q.href, Q.title]
-            };
+        function(Q) {
+            return [Q.href, Q.title]
+        };
         O = O ||
-            function () {
-                return true
-            };
+        function() {
+            return true
+        };
         var N = this;
-        return N.unbind("click").click(function () {
+        return N.unbind("click").click(function() {
             var S = this, U = 0, T, Q = 0, R;
-            T = w.grep(N, function (W, V) {
+            T = w.grep(N, function(W, V) {
                 return O.call(S, W, V)
             });
-            for (R = T.length; Q < R; ++Q) {
+            for ( R = T.length; Q < R; ++Q) {
                 if (T[Q] == S) {
                     U = Q
                 }
@@ -81,22 +79,22 @@
         w([a, G]).css("left", N + (M / 2));
         if (v) {
             w(H).css({
-                left: N,
-                top: E.scrollTop(),
-                width: M,
-                height: E.height()
+                left : N,
+                top : E.scrollTop(),
+                width : M,
+                height : E.height()
             })
         }
     }
 
     function j(M) {
         if (M) {
-            w("object").add(m ? "select" : "embed").each(function (O, P) {
+            w("object").add( m ? "select" : "embed").each(function(O, P) {
                 s[O] = [P, P.style.visibility];
                 P.style.visibility = "hidden"
             })
         } else {
-            w.each(s, function (O, P) {
+            w.each(s, function(O, P) {
                 P[0].style.visibility = P[1]
             });
             s = []
@@ -158,19 +156,19 @@
 
         if (k.width > my_w || k.height > my_h) {/* constrain it */
             w(g).css({
-                backgroundImage: "url(" + n + ")",
-                backgroundSize: "" + my_w + "px " + my_h + "px",
-                visibility: "hidden",
-                display: ""
+                backgroundImage : "url(" + n + ")",
+                backgroundSize : "" + my_w + "px " + my_h + "px",
+                visibility : "hidden",
+                display : ""
             });
             w(p).width(my_w);
             w([p, I, d]).height(my_h);
         } else {/* default behaviour  NORMAL before hackeing*/
             w(g).css({
-                backgroundImage: "url(" + n + ")",
-                backgroundSize: "",
-                visibility: "hidden",
-                display: ""
+                backgroundImage : "url(" + n + ")",
+                backgroundSize : "",
+                visibility : "hidden",
+                display : ""
             });
             w(p).width(k.width);
             w([p, I, d]).height(k.height);
@@ -188,28 +186,28 @@
         var M = Math.max(0, y - (r / 2));
         if (a.offsetHeight != r) {
             w(a).animate({
-                height: r,
-                top: M
+                height : r,
+                top : M
             }, u.resizeDuration, u.resizeEasing)
         }
         if (a.offsetWidth != L) {
             w(a).animate({
-                width: L,
-                marginLeft: -L / 2
+                width : L,
+                marginLeft : -L / 2
             }, u.resizeDuration, u.resizeEasing)
         }
-        w(a).queue(function () {
+        w(a).queue(function() {
             w(G).css({
-                width: L,
-                top: M + r,
-                marginLeft: -L / 2,
-                visibility: "hidden",
-                display: ""
+                width : L,
+                top : M + r,
+                marginLeft : -L / 2,
+                visibility : "hidden",
+                display : ""
             });
             w(g).css({
-                display: "none",
-                visibility: "",
-                opacity: ""
+                display : "none",
+                visibility : "",
+                opacity : ""
             }).fadeIn(u.imageFadeDuration, h)
         })
     }
@@ -222,7 +220,7 @@
             w(d).show()
         }
         w(c).css("marginTop", -c.offsetHeight).animate({
-            marginTop: 0
+            marginTop : 0
         }, u.captionAnimationDuration);
         G.style.visibility = ""
     }
@@ -248,8 +246,8 @@
 
 // AUTOLOAD CODE BLOCK (MAY BE CHANGED OR REMOVED)
 if (!/android|iphone|ipod|series60|symbian|windows ce|blackberry/i.test(navigator.userAgent)) {
-    jQuery(function ($) {
-        $("a[rel^='lightbox']").slimbox({/* Put custom options here */}, null, function (el) {
+    jQuery(function($) {
+        $("a[rel^='lightbox']").slimbox({/* Put custom options here */}, null, function(el) {
             return (this == el) || ((this.rel.length > 8) && (this.rel == el.rel));
         });
     });
