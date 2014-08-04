@@ -1,7 +1,7 @@
 <?php $name = $_POST['name'];
 $email = $_POST['email'];
 $message = $_POST['message'];
-$formcontent="From: $name \n Message: $message";
+$formcontent = "From: $name \n Message: $message";
 $recipient = "info@patriotpipes.com";
 $subject = "Patriot Pipes Feedback";
 $mailheader = "From: $email \r\n";
